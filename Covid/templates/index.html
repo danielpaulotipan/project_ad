@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% block title %}Home Page {% endblock %}
+{% block content %}
+
+<form method="POST" action="/predict">
+
+<div class="jumbotron jumbotron-fluid">
+	<div class="container">
+		<div class = 'form-group'>
+		
+        <label for='City'><h1 class="display-4">Is it safe in the city of... </h1></label> <br>
+		
+        <!input type="text" name='brand'>
+        <select name="city" id="covid">
+             <option value="CALOOCAN CITY">CALOOCAN </option>
+             <option value="CITY OF LAS PIÑAS">LAS PIÑAS</option>
+             <option value="CITY OF MAKATI">MAKATI</option>
+             <option value="CITY OF MALABON">MALABON</option>
+             <option value="CITY OF MANDALUYONG">MANDALUYONG</option>
+             <option value="CITY OF MANILA">MANILA</option>
+             <option value="CITY OF MARIKINA">MARIKINA</option>
+             <option value="CITY OF MUNTINLUPA">MUNTINLUPA</option>
+             <option value="CITY OF NAVOTAS">NAVOTAS</option>
+             <option value="CITY OF PARAÑAQUE">PARAÑAQUE</option>
+             <option value="CITY OF PASIG">PASIG</option>
+             <option value="CITY OF SAN JUAN">SAN JUAN</option>
+             <option value="CITY OF VALENZUELA">VALENZUELA</option>
+             <option value="PASAY CITY">PASAY</option>
+             <option value="PATEROS">PATEROS</option>
+             <option value="QUEZON CITY">QUEZON </option>
+             <option value="TAGUIG CITY">TAGUIG </option>                                                
+		</select>
+		<br>
+		</br>
+		<h1> ??? </h1>
+		</div>	
+	</div>	
+</div>
+
+<div class="card" >
+  <div class="card-body">
+    <h2 class="card-title">Enter the environmental values...</h2>
+    <a href="https://aqicn.org/city/philippines/" class="card-link">See values here for reference</a>
+  </div>
+</div>
+
+
+<br> 
+
+<div class="card-deck">
+  <div class ="card border-danger mb-3" style="max-width: 18rem;">
+    <div class="card-body text-danger">
+	
+	<h5 class="card-title">Temperature in °C</h5>
+	<div class = 'form-group'>
+                    <label for='Covtemp'></label>
+                    <input type="text" name='temperature'>
+                 </div>
+      <p class="card-text"><small class="text-muted">Example value: 27</small></p>
+    </div>
+  </div>
+  
+  
+  <div class="card border-primary mb-3" style="max-width: 18rem;">
+    
+    <div class="card-body text-primary">
+      <h5 class="card-title">Relative Humidity</h5>
+      <div class = 'form-group'>
+              <label for='Covhum'></label>
+              <input type="text" name='humidity'>
+       </div>
+      <p class="card-text"><small class="text-muted">Example value: 72</small></p>
+    </div>
+  </div>
+  
+  <div class="card border-dark mb-3" style="max-width: 18rem;">
+    
+    <div class="card-body">
+      <h5 class="card-title">PM10 in μg/m3 </h5>
+	  <div class = 'form-group'>
+                    <label for='Covpm'></label>
+                    <input type="text" name='pm10'>
+                  </div>  
+      <p class="card-text"><small class="text-muted">Example value: 20</small></p>
+    </div>
+  </div>
+  <div class="card border-success mb-3" style="max-width: 18rem;">
+    
+    <div class="card-body text-success">
+      <h5 class="card-title">NO2 in ppm</h5>
+	   <div class = 'form-group'>
+                    <label for='Covno2'></label>
+                    <input type="text" name='no2'>
+                </div>
+      <p class="card-text"><small class="text-muted">Example value: 2.2</small></p>
+    </div>
+  </div>
+ </div>
+
+
+	<br> 
+	<div class="center-screen">
+	
+
+     <input class="btn btn-primary" type="submit" value="Submit">
+  
+	
+	</div>		 
+
+</form>
+      
+      
+      
+
+
+{% endblock %}

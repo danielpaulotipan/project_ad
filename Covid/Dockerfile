@@ -1,0 +1,20 @@
+#use python as base image
+FROM python:3.7.6-slim
+
+#Use working directory /app
+WORKDIR /app
+
+#Copy all the contents of current directory to /app
+ADD . /app
+
+#Installing required packages
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
+
+#Open port 5000
+EXPOSE 5000
+
+#Set environment variable
+ENV NAME ProjectAD
+
+#Run python progrm
+CMD ["python","project_ad.py"]

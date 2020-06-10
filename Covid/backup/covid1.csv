@@ -1,0 +1,806 @@
+country,case_no,age,sex,nationality,residence,travel_history,symptoms,confirmation_date,facility,latitude,longitude,status,epi_link,date,contacts,num_contacts
+PH,1,38,Female,Chinese,CHINA,Yes (China); Wife of PH2, ,1/30/2020,San Lazaro Hospital,14.613754,120.980815,2, ,1/29/2020 16:00,['PH2'],1
+PH,2,44,Male,Chinese,CHINA,Yes (China); Husband of PH1, ,1/30/2020,San Lazaro Hospital,14.613754,120.980815,0, ,1/29/2020 16:00,['PH1'],1
+PH,3,60,Female,Chinese,CHINA,Yes (China), ,1/30/2020,ACE Medical Center,9.634451,123.869198,2, ,1/29/2020 16:00,[],0
+PH,4,48,Male,Filipino,Taguig City,Yes (Japan), ,3/5/2020,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581,1, ,3/4/2020 16:00,[],0
+PH,5,62,Male,Filipino,"Cainta, Rizal",Husband of PH6, ,3/5/2020,Research Institute for Tropical Medicine,14.409523,121.037122,0, ,3/4/2020 16:00,['PH6'],1
+PH,6,59,Female,Filipino,"Cainta, Rizal",Wife of PH5, ,3/6/2020,Research Institute for Tropical Medicine,14.409523,121.037122,0, ,3/5/2020 16:00,['PH5'],1
+PH,7,38,Male,"Chinese, Taiwanese",Makati City,No Travel History; Contact of FN2, ,3/8/2020,Research Institute for Tropical Medicine,14.409523,121.037122,2, ,3/7/2020 16:00,[],0
+PH,8,32,Male,Filipino,Pasig City,Yes (Japan), ,3/8/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/7/2020 16:00,[],0
+PH,9,86,Male,American,Marikina City,"Yes (USA, Korea); In same household with PH27-30; Contact of PH31", ,3/8/2020,The Medical City,14.58989,121.069315,0, ,3/7/2020 16:00,"['PH27', 'PH31']",2
+PH,10,57,Male,Filipino,Quezon City,Taiwan, ,3/8/2020,San Lazaro Hospital,14.613754,120.980815,2, ,3/7/2020 16:00,[],0
+PH,11,72,Male,Filipino,San Juan City,None, ,3/9/2020,The Medical City,14.58989,121.069315,1, ,3/8/2020 16:00,[],0
+PH,12,56,Male,Filipino,Manila City,"Contact of PH42, PH43", ,3/9/2020,Makati Medical Center,14.559177,121.014546,0, ,3/8/2020 16:00,"['PH42', 'PH43']",2
+PH,13,34,Male,Filipino,Quezon City,Yes (Australia), ,3/9/2020,Makati Medical Center,14.559177,121.014546,2, ,3/8/2020 16:00,[],0
+PH,14,46,Male,Filipino,Pasay City,None, ,3/9/2020,Makati Medical Center,14.559177,121.014546,2, ,3/8/2020 16:00,[],0
+PH,15,24,Male,Filipino,Makati City,Yes (UAE), ,3/9/2020,Makati Medical Center,14.559177,121.014546,2, ,3/8/2020 16:00,[],0
+PH,16,70,Male,Filipino,San Juan City,Husband of PH17, ,3/9/2020,Research Institute for Tropical Medicine,14.409523,121.037122,2, ,3/8/2020 16:00,['PH17'],1
+PH,17,69,Female,Filipino,San Juan City,Wife of PH16, ,3/9/2020,Research Institute for Tropical Medicine,14.409523,121.037122,2, ,3/8/2020 16:00,['PH16'],1
+PH,18,41,Male,Filipino,Pasig City,Taiwan; Husband of PH19, ,3/9/2020,San Lazaro Hospital,14.613754,120.980815,2, ,3/8/2020 16:00,['PH19'],1
+PH,19,46,Female,Filipino,Pasig City,Wife of PH18, ,3/9/2020,San Lazaro Hospital,14.613754,120.980815,1, ,3/8/2020 16:00,['PH18'],1
+PH,20,48,Male,Filipino,"Imus City, Cavite",Yes. Japan, ,3/9/2020,Research Institute for Tropical Medicine,14.409523,121.037122,2, ,3/8/2020 16:00,[],0
+PH,21,58,Female,Filipino,"San Jose Del Monte City, Bulacan",None, ,3/9/2020,Dr. Jose N. Rodriguez Memorial Hospital,14.766822,121.065003,1, ,3/8/2020 16:00,[],0
+PH,22,51,Female,Filipino,San Juan City,None, ,3/9/2020,Quirino Memorial Medical Center,14.622224,121.07294,2, ,3/8/2020 16:00,[],0
+PH,23,30,Female,Filipino,San Juan City,None, ,3/9/2020,Cardinal Santos Medical Center,14.597596,121.045994,2, ,3/8/2020 16:00,[],0
+PH,24,52,Male,Filipino,Quezon City,Switzerland, ,3/9/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/8/2020 16:00,[],0
+PH,25,31,Male,Filipino,"Bais City, Negros Oriental",Diamond Princess Cruise Ship, ,3/10/2020,Jose B. Lingad Memorial Regional Hospital,15.03451,120.684733,2, ,3/9/2020 16:00,[],0
+PH,26,34,Male,Filipino,"Libmanan, Camarines Sur",Diamond Princess Cruise Ship, ,3/10/2020,Jose B. Lingad Memorial Regional Hospital,15.03451,120.684733,2, ,3/9/2020 16:00,[],0
+PH,27,42,Female,Filipino,Marikina City,(Household member of PH9) Niece of PH9, ,3/10/2020,The Medical City,14.58989,121.069315,1, ,3/9/2020 16:00,"['PH9', 'PH9']",2
+PH,28,69,Male,Filipino,Marikina City,(Household member of PH9) Husband of PH30, ,3/10/2020,The Medical City,14.58989,121.069315,1, ,3/9/2020 16:00,"['PH9', 'PH30']",2
+PH,29,82,Female,Filipino,Marikina City,(Household of PH9) Wife of PH9, ,3/10/2020,The Medical City,14.58989,121.069315,0, ,3/9/2020 16:00,"['PH9', 'PH9']",2
+PH,30,69,Female,Filipino,Marikina City,(Household of PH9) Wife of PH28, ,3/10/2020,The Medical City,14.58989,121.069315,1, ,3/9/2020 16:00,"['PH9', 'PH28']",2
+PH,31,28,Female,Filipino,San Juan City,With Exposure History to PH9, ,3/10/2020,The Medical City,14.58989,121.069315,2, ,3/9/2020 16:00,['PH9'],1
+PH,32,64,Male,Filipino,San Juan City,Husband of PH90, ,3/10/2020,The Medical City,14.58989,121.069315,1, ,3/9/2020 16:00,['PH90'],1
+PH,33,60,Male,Filipino,Makati City,Thailand, ,3/10/2020,Rizal Medical Center,14.564216,121.065879,1, ,3/9/2020 16:00,[],0
+PH,34,72,Male,Filipino,Makati City,Husband of PH35, ,3/11/2020,Lung Center of the Philippines,14.647821,121.045763,1, ,3/10/2020 16:00,['PH35'],1
+PH,35,67,Female,Filipino,Makati City,Wife of PH34, ,3/11/2020,Manila Doctors Hospital,14.582028,120.982657,0, ,3/10/2020 16:00,['PH34'],1
+PH,36,53,Male,Filipino,Las Piñas City,None, ,3/11/2020,Las Piñas General Hospital and Satellite Trauma Center,14.471649,120.973822,1, ,3/10/2020 16:00,[],0
+PH,37,88,Female,Filipino,Pasig City,None, ,3/11/2020,Philippine Heart Center,14.64407,121.048067,0, ,3/10/2020 16:00,[],0
+PH,38,29,Male,Filipino,"Cainta, Rizal",With Exposure History to PH5, ,3/11/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/10/2020 16:00,['PH5'],1
+PH,39,64,Male,Filipino,"Tayasan, Negros Oriental",None, ,3/11/2020,"ACE Dumaguete Doctors, Inc.",9.317444,123.296207,0, ,3/10/2020 16:00,[],0
+PH,40,54,Male,for_validation,"Marawi City, Lanao Del Sur",None, ,3/11/2020,Northern Mindanao Medical Center,8.485453,124.649503,0, ,3/10/2020 16:00,[],0
+PH,41,75,Female,Filipino,Makati City,USA; Sister of PH44 and PH87; Relative of PH112, ,3/11/2020,Makati Medical Center,14.559177,121.014546,2, ,3/10/2020 16:00,"['PH44', 'PH87', 'PH112']",3
+PH,42,51,Male,Filipino,Pasig City,Japan, ,3/11/2020,Lung Center of the Philippines,14.647821,121.045763,1, ,3/10/2020 16:00,[],0
+PH,43,47,Male,Filipino,Makati City,Wife is Sister of PH12; Close Contact of PH35, ,3/11/2020,Lung Center of the Philippines,14.647821,121.045763,1, ,3/10/2020 16:00,"['PH12', 'PH35']",2
+PH,44,70,Female,Filipino,Makati City,Sister of PH41 and PH87; Relative of PH112, ,3/11/2020,Makati Medical Center,14.559177,121.014546,1, ,3/10/2020 16:00,"['PH41', 'PH87', 'PH112']",3
+PH,45,27,Male,Filipino,Quezon City,With Exposure History to a known COVID-19 case, ,3/11/2020,Makati Medical Center,14.559177,121.014546,1, ,3/10/2020 16:00,[],0
+PH,46,66,Female,Filipino,Caloocan City,None, ,3/11/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/10/2020 16:00,[],0
+PH,47,53,Male,Filipino,Mandaluyong City,Indonesia, ,3/11/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/10/2020 16:00,[],0
+PH,48,57,Male,Filipino,San Juan City,None, ,3/11/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/10/2020 16:00,[],0
+PH,49,72,Male,Filipino,Batangas City,Brother of PH52, ,3/11/2020,Asian Hospital and Medical Center,14.413478,121.043612,2, ,3/10/2020 16:00,['PH52'],1
+PH,50,69,Female,Filipino,Quezon City,None, ,3/11/2020,The Medical City,14.58989,121.069315,1, ,3/10/2020 16:00,[],0
+PH,51,26,Male,Filipino,Quezon City,"Son of PH134, Brother of PH135", ,3/11/2020,Quirino Memorial Medical Center,14.622224,121.07294,2, ,3/10/2020 16:00,"['PH134', 'PH135']",2
+PH,52,79,Female,Filipino,Batangas City,United Kingdom; Sister of PH49, ,3/11/2020,Asian Hospital and Medical Center,14.413478,121.043612,0, ,3/10/2020 16:00,['PH49'],1
+PH,53,30,Male,Filipino,Mandaluyong City,Japan, ,3/12/2020,San Lazaro Hospital,14.613754,120.980815,1, ,3/11/2020 16:00,[],0
+PH,54,39,Male,Filipino,Pasig City,None, ,3/12/2020,San Lazaro Hospital,14.613754,120.980815,0, ,3/11/2020 16:00,[],0
+PH,55,59,Female,Filipino,Quezon City,None, ,3/13/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/12/2020 16:00,[],0
+PH,56,41,Male,Filipino,Parañaque City,None, ,3/13/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/12/2020 16:00,[],0
+PH,57,65,Male,Filipino,"San Ildefonso, Bulacan",London, ,3/13/2020,Lung Center of the Philippines,14.647821,121.045763,0, ,3/12/2020 16:00,[],0
+PH,58,45,Female,Filipino,Makati City,With Exposure History to a known COVID-19 case, ,3/13/2020,The Medical City,14.58989,121.069315,1, ,3/12/2020 16:00,[],0
+PH,59,27,Male,Filipino,Makati City,With Exposure History to a known COVID-19 case, ,3/13/2020,Makati Medical Center,14.559177,121.014546,1, ,3/12/2020 16:00,[],0
+PH,60,49,Male,for_validation,Makati City,for_validation, ,3/13/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/12/2020 16:00,[],0
+PH,61,70,Female,Filipino,San Juan City,None, ,3/13/2020,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581,1, ,3/12/2020 16:00,[],0
+PH,62,35,Male,Filipino,"Cainta, Rizal",None, ,3/13/2020,for_validation,14.615867,120.980991,2, ,3/12/2020 16:00,[],0
+PH,63,33,Male,Filipino,"Porac, Pampanga",None, ,3/13/2020,Marikina Valley Medical Center,14.634719,121.103987,1, ,3/12/2020 16:00,[],0
+PH,64,32,Male,Filipino,"Orani, Bataan",None, ,3/13/2020,Bataan St. Joseph Hospital and Medical Center,14.68148,120.541544,1, ,3/12/2020 16:00,[],0
+PH,65,70,Male,Filipino,San Juan City,With Exposure to PH21, ,3/13/2020,Veterans Memorial Medical Center,14.65616,121.04012,1, ,3/12/2020 16:00,['PH21'],1
+PH,66,25,Male,Filipino,Pasig City,With Exposure to PH21 and PH67, ,3/13/2020,San Lazaro Hospital,14.613754,120.980815,1, ,3/12/2020 16:00,"['PH21', 'PH67']",2
+PH,67,23,Female,Filipino,Manila City,With Exposure to PH21, ,3/13/2020,Santa Ana Hospital,14.583621,121.016425,1, ,3/12/2020 16:00,['PH21'],1
+PH,68,32,Male,Filipino,Quezon City,With Exposure to known COVID-19 case, ,3/13/2020,The Medical City,14.58989,121.069315,1, ,3/12/2020 16:00,[],0
+PH,69,28,Female,Filipino,Mandaluyong City,With Exposure to known COVID-19 case, ,3/13/2020,The Medical City,14.58989,121.069315,1, ,3/12/2020 16:00,[],0
+PH,70,35,Male,Filipino,"Lucena City, Quezon","Thailand, Singapore", ,3/13/2020,Quezon Medical Center,13.942133,121.612553,1, ,3/12/2020 16:00,[],0
+PH,71,59,Male,Filipino,San Juan City,None, ,3/13/2020,San Lazaro Hospital,14.613754,120.980815,1, ,3/12/2020 16:00,[],0
+PH,72,42,Male,Filipino,"Santa Rosa City, Laguna",Japan, ,3/13/2020,The Medical City - South Luzon,14.248433,121.067344,1, ,3/12/2020 16:00,[],0
+PH,73,54,Male,Filipino,Manila City,Thailand, ,3/13/2020,Our Lady of Lourdes Hospital,14.594872,121.022557,2, ,3/12/2020 16:00,[],0
+PH,74,49,Male,Filipino,Quezon City,None, ,3/13/2020,East Avenue Medical Center,14.642167,121.048063,1, ,3/12/2020 16:00,[],0
+PH,75,64,Male,Filipino,Pasig City,None, ,3/13/2020,Rizal Medical Center,14.564216,121.065879,1, ,3/12/2020 16:00,[],0
+PH,76,59,Male,Filipino,San Juan City,None, ,3/13/2020,The Medical City,14.58989,121.069315,1, ,3/12/2020 16:00,[],0
+PH,77,60,Male,Filipino,"Antipolo City, Rizal",None, ,3/13/2020,Fatima University Medical Center,14.619168,121.152184,1, ,3/12/2020 16:00,[],0
+PH,78,63,Female,for_validation,Manila City,None, ,3/13/2020,Chinese General Hospital and Medical Center,14.625691,120.988565,1, ,3/12/2020 16:00,[],0
+PH,79,68,Male,Filipino,Makati City,None, ,3/13/2020,Manila Doctors Hospital,14.582028,120.982657,0, ,3/12/2020 16:00,[],0
+PH,80,52,Male,Filipino,Quezon City,None, ,3/14/2020,University of Sto. Tomas Hospital,14.611635,120.990153,1, ,3/12/2020 16:00,[],0
+PH,81,25,Female,Filipino,"Dasmariñas City, Cavite",None, ,3/14/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/12/2020 16:00,[],0
+PH,82,66,Male,Filipino,Quezon City,None, ,3/14/2020,University of Sto. Tomas Hospital,14.611635,120.990153,2, ,3/12/2020 16:00,[],0
+PH,83,46,Male,Filipino,Pasay City,None, ,3/13/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/12/2020 16:00,[],0
+PH,84,38,Male,Filipino,Taguig City,Contact of PH43, ,3/13/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/12/2020 16:00,['PH43'],1
+PH,85,38,Male,Filipino,Parañaque City,Japan, ,3/13/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/12/2020 16:00,[],0
+PH,86,48,Male,Filipino,Quezon City,Contact of PH43, ,3/13/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/12/2020 16:00,['PH43'],1
+PH,87,76,Female,Filipino,Quezon City,Sister of PH41 and PH44; Relative of PH112, ,3/14/2020,Research Institute for Tropical Medicine,14.409523,121.037122,2, ,3/13/2020 16:00,"['PH41', 'PH44', 'PH112']",3
+PH,88,33,Male,for_validation,San Juan City,None, ,3/14/2020,Quirino Memorial Medical Center,14.622224,121.07294,1, ,3/13/2020 16:00,[],0
+PH,89,67,Male,Filipino,"San Fernando City, Pampanga",None, ,3/13/2020,Our Lady of Mt. Carmel Medical Center,15.182178,120.529903,0, ,3/12/2020 16:00,[],0
+PH,90,66,Female,Filipino,San Juan City,Wife of PH32, ,3/13/2020,The Medical City,14.58989,121.069315,1, ,3/12/2020 16:00,['PH32'],1
+PH,91,27,Female,Filipino,Quezon City,None, ,3/13/2020,The Medical City,14.58989,121.069315,1, ,3/12/2020 16:00,[],0
+PH,92,59,Male,Filipino,Makati City,None, ,3/13/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/12/2020 16:00,[],0
+PH,93,47,Male,Filipino,"Floridablanca, Pampanga",None, ,3/13/2020,Jose B. Lingad Memorial Regional Hospital,15.03451,120.684733,1, ,3/12/2020 16:00,[],0
+PH,94,49,Male,Filipino,"Lipa City, Batangas",for_validation, ,3/13/2020,Qualimed - Sta. Rosa Hospital,14.23266,121.052589,1, ,3/12/2020 16:00,[],0
+PH,95,64,Female,Filipino,"Lemery, Batangas",None, ,3/14/2020,San Lazaro Hospital,14.613754,120.980815,2, ,3/13/2020 16:00,[],0
+PH,96,39,Male,Filipino,"Manabo, Abra","UAE, Thailand", ,3/14/2020,Ilocos Training and Regional Medical Center,16.591172,120.318298,1, ,3/13/2020 16:00,[],0
+PH,97,69,Male,Filipino,Mandaluyong City,None, ,3/14/2020,San Lazaro Hospital,14.613754,120.980815,1, ,3/13/2020 16:00,[],0
+PH,98,50,Male,Filipino,San Juan City,None, ,3/14/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/13/2020 16:00,[],0
+PH,99,33,Male,Filipino,"San Jose Del Monte City, Bulacan",None, ,3/16/2020,Dr. Jose N. Rodriguez Memorial Hospital,14.766822,121.065003,1, ,3/13/2020 16:00,[],0
+PH,100,30,Male,Filipino,Quezon City,None, ,3/15/2020,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581,1, ,3/13/2020 16:00,[],0
+PH,101,55,Male,Filipino,Quezon City,None, ,3/16/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/13/2020 16:00,[],0
+PH,102,55,Male,Filipino,Quezon City,None, ,3/16/2020,Makati Medical Center,14.559177,121.014546,1, ,3/13/2020 16:00,[],0
+PH,103,31,Male,Filipino,Caloocan City,None, ,3/16/2020,Lung Center of the Philippines,14.647821,121.045763,1, ,3/13/2020 16:00,[],0
+PH,104,62,Male,Filipino,Caloocan City,None, ,3/16/2020,Lung Center of the Philippines,14.647821,121.045763,1, ,3/13/2020 16:00,[],0
+PH,105,38,Male,Filipino,Mandaluyong City,5-Mar-20, ,3/16/2020,The Medical City,14.58989,121.069315,1, ,3/13/2020 16:00,[],0
+PH,106,75,Female,Filipino,Pasig City,None, ,3/15/2020,The Medical City,14.58989,121.069315,1, ,3/13/2020 16:00,[],0
+PH,107,57,Female,Filipino,Quezon City,None, ,3/16/2020,Philippine Heart Center,14.64407,121.048067,1, ,3/13/2020 16:00,[],0
+PH,108,38,Male,Filipino,Taguig City,Malaysia, ,3/14/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/13/2020 16:00,[],0
+PH,109,44,Male,Filipino,Pasig City,None, ,3/15/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/13/2020 16:00,[],0
+PH,110,27,Female,Thai,Taguig City,None, ,3/16/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/13/2020 16:00,[],0
+PH,111,44,Male,Filipino,Pasig City,None, ,for_validation,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/13/2020 16:00,[],0
+PH,112,41,Male,Filipino,Makati City,"Relative of PH41, PH44, PH87", ,3/14/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/14/2020 0:00,"['PH41', 'PH44', 'PH87']",3
+PH,113,31,Female,Filipino,"Malolos City, Bulacan",Japan, ,3/14/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/14/2020 0:00,[],0
+PH,114,35,Male,Filipino,Caloocan City,Japan, ,3/14/2020,Rizal Medical Center,14.564216,121.065879,1, ,3/14/2020 0:00,[],0
+PH,115,66,Male,Thai,Quezon City,Thailand, ,3/15/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/15/2020 0:00,[],0
+PH,116,70,Female,Filipino,"Guiguinto, Bulacan",Japan, ,3/15/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/15/2020 0:00,[],0
+PH,117,68,Male,Filipino,Quezon City,"Korea, USA", ,3/15/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/15/2020 0:00,[],0
+PH,118,60,Male,Filipino,Quezon City,None, ,3/15/2020,San Lazaro Hospital,14.613754,120.980815,1, ,3/15/2020 0:00,[],0
+PH,119,58,Male,Filipino,Parañaque City,None, ,3/15/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/15/2020 0:00,[],0
+PH,120,29,Female,Filipino,Quezon City,None, ,3/15/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/15/2020 0:00,[],0
+PH,121,37,Male,Filipino,Mandaluyong City,USA, ,3/15/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/15/2020 0:00,[],0
+PH,122,41,Male,Filipino,"Tarlac City, Tarlac",None, ,3/15/2020,"Metro North Medical Center and Hospital, Inc.",14.668849,121.033641,1, ,3/15/2020 0:00,[],0
+PH,123,55,Male,Filipino,Manila City,None, ,3/15/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/15/2020 0:00,[],0
+PH,124,65,Male,Filipino,Quezon City,Singapore, ,3/15/2020,Lung Center of the Philippines,14.647821,121.045763,0, ,3/15/2020 0:00,[],0
+PH,125,36,Male,Filipino,Manila City,Cambodia, ,3/15/2020,Chinese General Hospital and Medical Center,14.625691,120.988565,1, ,3/15/2020 0:00,[],0
+PH,126,76,Male,Filipino,"Cainta, Rizal",None, ,3/15/2020,Adventist Medical Center - Manila,14.555997,120.99541,0, ,3/15/2020 0:00,[],0
+PH,127,24,Female,Filipino,Parañaque City,Japan, ,3/15/2020,San Lazaro Hospital,14.613754,120.980815,1, ,3/15/2020 0:00,[],0
+PH,128,25,Female,Filipino,Marikina City,Taiwan, ,3/15/2020,Marikina Valley Medical Center,14.634719,121.103987,1, ,3/15/2020 0:00,[],0
+PH,129,67,Male,Filipino,Quezon City,None, ,3/15/2020,Diliman Doctors Hospital,14.668412,121.076063,0, ,3/15/2020 0:00,[],0
+PH,130,21,Female,Filipino,"Pantukan, Compostela Valley","United Kingdom, Qatar", ,3/15/2020,Davao Regional Medical Center,7.421699,125.828704,2, ,3/15/2020 0:00,[],0
+PH,131,29,Female,Filipino,Mandaluyong City,Dubai, ,3/15/2020,Our Lady of Lourdes Hospital,14.594872,121.022557,1, ,3/15/2020 0:00,[],0
+PH,132,69,Male,Filipino,Mandaluyong City,None, ,3/15/2020,Makati Medical Center,14.559177,121.014546,1, ,3/15/2020 0:00,[],0
+PH,133,27,Male,Filipino,San Juan City,None, ,3/15/2020,Quirino Memorial Medical Center,14.622224,121.07294,1, ,3/15/2020 0:00,[],0
+PH,134,47,Female,Filipino,Quezon City,Mother of PH135 and PH51, ,3/15/2020,Quirino Memorial Medical Center,14.622224,121.07294,1, ,3/15/2020 0:00,"['PH135', 'PH51']",2
+PH,135,13,Female,Filipino,Quezon City,"Daughter of PH134, Sister of PH51", ,3/15/2020,Quirino Memorial Medical Center,14.622224,121.07294,1, ,3/15/2020 0:00,"['PH134', 'PH51']",2
+PH,136,48,Male,Filipino,"Silang, Cavite",None, ,3/15/2020,The Medical City,14.58989,121.069315,1, ,3/15/2020 0:00,[],0
+PH,137,27,Female,Filipino,"Cainta, Rizal",None, ,3/15/2020,The Medical City,14.58989,121.069315,1, ,3/15/2020 0:00,[],0
+PH,138,59,Male,Filipino,Las Piñas City,None, ,3/15/2020,San Lazaro Hospital,14.613754,120.980815,1, ,3/15/2020 0:00,[],0
+PH,139,44,Female,Filipino,"Dasmariñas City, Cavite",None, ,3/15/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/15/2020 0:00,[],0
+PH,140,47,Female,Filipino,Parañaque City,None, ,3/15/2020,Asian Hospital and Medical Center,14.413478,121.043612,1, ,3/15/2020 0:00,[],0
+PH,141,63,Male,Filipino,Parañaque City,Contact of PH143, ,3/16/2020,The Medical City,14.58989,121.069315,1, ,3/16/2020 0:00,['PH143'],1
+PH,142,50,Male,Filipino,Makati City,for_validation, ,3/16/2020,for_validation,14.615867,120.980991,1, ,3/16/2020,[],0
+PH,143,73,Male,Filipino,Quezon City,Contact of PH141, ,3/16/2020,Cardinal Santos Medical Center,14.597596,121.045994,2, ,3/16/2020,['PH141'],1
+PH,144,74,Female,Filipino,for_validation,None, ,3/16/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/16/2020,[],0
+PH,145,32,Male,Filipino,Cotabato City,Malaysia, ,3/16/2020,Cotabato Regional and Medical Center,7.200405,124.236317,1, ,3/16/2020,[],0
+PH,146,52,Male,Filipino,Quezon City,Vietnam, ,3/16/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/16/2020,[],0
+PH,147,70,Female,Filipino,Mandaluyong City,None, ,3/16/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/16/2020,[],0
+PH,148,54,Male,Filipino,San Juan City,None, ,3/16/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/16/2020,[],0
+PH,149,61,Female,Filipino,Makati City,None, ,3/16/2020,Manila Doctors Hospital,14.582028,120.982657,1, ,3/16/2020,[],0
+PH,150,57,Female,Filipino,Taguig City,for_validation, ,3/16/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/16/2020,[],0
+PH,151,78,Female,Filipino,Muntinlupa City,None, ,3/16/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/16/2020,[],0
+PH,152,40,Male,Filipino,"Baliuag, Bulacan",None, ,3/16/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/16/2020,[],0
+PH,153,34,Female,Filipino,Taguig City,None, ,3/16/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/16/2020,[],0
+PH,154,27,Female,Filipino,Muntinlupa City,None, ,3/16/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/16/2020,[],0
+PH,155,48,Male,Filipino,"Bacoor City, Cavite",None, ,3/16/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/16/2020,[],0
+PH,156,57,Female,Filipino,Muntinlupa City,None, ,3/16/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/16/2020,[],0
+PH,157,66,Female,Filipino,Las Piñas City,Contact of PH158, ,3/16/2020,Las Piñas General Hospital and Satellite Trauma Center,14.471649,120.973822,1, ,3/16/2020,['PH158'],1
+PH,158,48,Male,Filipino,Las Piñas City,Contact of PH157, ,3/16/2020,Las Piñas General Hospital and Satellite Trauma Center,14.471649,120.973822,1, ,3/16/2020,['PH157'],1
+PH,159,50,Male,for_validation,for_validation,for_validation, ,3/16/2020,Victor R. Potenciano Medical Center,14.576983,121.050084,1, ,3/16/2020,[],0
+PH,160,86,Female,Filipino,San Juan City,None, ,3/16/2020,Cardinal Santos Medical Center,14.597596,121.045994,0, ,3/16/2020,[],0
+PH,161,38,Male,Filipino,Manila City,None, ,3/16/2020,Manila Doctors Hospital,14.582028,120.982657,1, ,3/16/2020,[],0
+PH,162,71,Male,Filipino,Quezon City,None, ,3/16/2020,San Lazaro Hospital,14.613754,120.980815,1, ,3/16/2020,[],0
+PH,163,55,Male,Filipino,Quezon City,None, ,3/16/2020,San Lazaro Hospital,14.613754,120.980815,1, ,3/16/2020,[],0
+PH,164,28,Female,Filipino,Makati City,Contact of PH173, ,3/16/2020,Rizal Medical Center,14.564216,121.065879,1, ,3/16/2020,['PH173'],1
+PH,165,50,Female,Filipino,Manila City,Wife of PH165, ,3/16/2020,Santa Ana Hospital,14.583621,121.016425,1, ,3/16/2020,['PH165'],1
+PH,166,53,Male,Filipino,Manila City,Husband of PH166, ,3/16/2020,Santa Ana Hospital,14.583621,121.016425,1, ,3/16/2020,['PH166'],1
+PH,167,48,Male,Filipino,Quezon City,None, ,3/17/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/17/2020,[],0
+PH,168,35,Female,Filipino,Quezon City,None, ,3/17/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/17/2020,[],0
+PH,169,60,Male,Filipino,Quezon City,Contact of PH170 and PH176, ,3/16/2020,for_validation,14.615867,120.980991,1, ,3/16/2020,"['PH170', 'PH176']",2
+PH,170,22,Male,Filipino,Quezon City,Son of PH169 and PH176, ,3/16/2020,for_validation,14.615867,120.980991,1, ,3/16/2020,"['PH169', 'PH176']",2
+PH,171,55,Male,Filipino,"Cainta, Rizal",for_validation, ,3/17/2020,Lung Center of the Philippines,14.647821,121.045763,1, ,3/17/2020,[],0
+PH,172,69,Male,Filipino,"Antipolo City, Rizal",None, ,3/17/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/17/2020,[],0
+PH,173,38,Male,Filipino,Makati City,Contact of PH164, ,3/17/2020,Rizal Medical Center,14.564216,121.065879,1, ,3/17/2020,['PH164'],1
+PH,174,39,Female,Indian,Pasig City,New Zealand, ,3/16/2020,Victor R. Potenciano Medical Center,14.576983,121.050084,1, ,3/16/2020,[],0
+PH,175,35,Male,Filipino,Caloocan City,None, ,3/17/2020,FEU - Dr. Nicanor Reyes Medical Foundation,14.698851,121.067192,1, ,3/17/2020,[],0
+PH,176,55,Female,Filipino,Quezon City,Contact of PH169 and PH170, ,3/16/2020,for_validation,14.615867,120.980991,1, ,3/16/2020,"['PH169', 'PH170']",2
+PH,177,70,Male,Filipino,"Bacoor City, Cavite",for_validation, ,3/16/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/16/2020,[],0
+PH,178,74,Male,Filipino,Manila City,None, ,3/17/2020,Medical Center Manila,14.582445,120.985646,1, ,3/17/2020,[],0
+PH,179,59,Male,Filipino,Taguig City,None, ,3/16/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/16/2020,[],0
+PH,180,52,Male,for_validation,San Juan City,for_validation, ,3/16/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/16/2020,[],0
+PH,181,39,Male,for_validation,Manila City,Malaysia, ,3/16/2020,Metropolitan Medical Center,14.609723,120.978397,1, ,3/16/2020,[],0
+PH,182,74,Male,Filipino,Parañaque City,USA, ,3/16/2020,Asian Hospital and Medical Center,14.413478,121.043612,1, ,3/16/2020,[],0
+PH,183,82,Female,Filipino,Batangas City,Contact of PH49 and PH52, ,3/16/2020,Asian Hospital and Medical Center,14.413478,121.043612,1, ,3/16/2020,"['PH49', 'PH52']",2
+PH,184,28,Female,Filipino,Pasig City,for_validation, ,3/16/2020,The Medical City,14.58989,121.069315,1, ,3/16/2020,[],0
+PH,185,48,Male,Filipino,Pasig City,None, ,3/16/2020,The Medical City,14.58989,121.069315,1, ,3/16/2020,[],0
+PH,186,28,Female,Filipino,Manila City,for_validation, ,3/16/2020,The Medical City,14.58989,121.069315,1, ,3/16/2020,[],0
+PH,187,28,Female,Filipino,Caloocan City,With exposure to known COVID-19 case, ,3/16/2020,for_validation,14.615867,120.980991,1, ,3/16/2020,[],0
+PH,188,65,Male,Filipino,"Cebu City, Cebu",for_validation, ,3/16/2020,Chong Hua Hospital Mandaue,10.322754,123.931484,1, ,3/16/2020,[],0
+PH,189,49,Male,Filipino,Mandaluyong City,None, ,3/16/2020,Mandaluyong City Medical Center,14.576313,121.035279,1, ,3/16/2020,[],0
+PH,190,37,Female,Filipino,San Juan City,None, ,3/16/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/16/2020,[],0
+PH,191,86,Female,Filipino,San Juan City,for_validation, ,3/16/2020,CDJ Hospital,14.615867,120.980991,1, ,3/16/2020,[],0
+PH,192,75,Male,Filipino,San Juan City,Dubai, ,3/16/2020,San Juan Medical Center,14.606611,121.023542,1, ,3/16/2020,[],0
+PH,193,41,Female,for_validation,for_validation,for_validation, ,3/16/2020,San Juan Medical Center,14.606611,121.023542,1, ,3/16/2020,[],0
+PH,194,42,Female,Filipino,Quezon City,Japan, ,3/18/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/18/2020,[],0
+PH,195,56,Male,Filipino,San Juan City,None, ,3/18/2020,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581,1, ,3/18/2020,[],0
+PH,196,35,Male,Filipino,Las Piñas City,None, ,3/18/2020,for_validation,14.615867,120.980991,1, ,3/18/2020,[],0
+PH,197,77,Male,Filipino,"Taytay, Rizal",None, ,3/18/2020,The Medical City,14.58989,121.069315,1, ,3/18/2020,[],0
+PH,198,65,Female,Filipino,Pasig City,None, ,3/18/2020,The Medical City,14.58989,121.069315,1, ,3/18/2020,[],0
+PH,199,69,Female,Filipino,Pasig City,Singapore, ,3/18/2020,The Medical City,14.58989,121.069315,1, ,3/18/2020,[],0
+PH,200,34,Male,Filipino,Quezon City,None, ,3/18/2020,Philippine Heart Center,14.64407,121.048067,0, ,3/18/2020,[],0
+PH,201,58,Male,Filipino,"Marawi City, Lanao Del Sur",Malaysia, ,3/18/2020,Amai Pakpak Medical Center,8.004392,124.283897,0, ,3/18/2020,[],0
+PH,202,43,Male,Filipino,"Tanza, Cavite",None, ,3/18/2020,Divine Grace Medical Center,14.39785,120.868043,1, ,3/18/2020,[],0
+PH,203,60,Female,Filipino,"Antipolo City, Rizal",None, ,3/18/2020,The Medical City,14.58989,121.069315,1, ,3/18/2020,[],0
+PH,204,32,Female,Filipino,Makati City,Contact of PH35, ,3/18/2020,Manila Doctors Hospital,14.582028,120.982657,1, ,3/18/2020,['PH35'],1
+PH,205,73,Female,Filipino,San Juan City,None, ,3/18/2020,The Medical City,14.58989,121.069315,0, ,3/18/2020,[],0
+PH,206,25,Male,Filipino,Pasig City,None, ,for_validation,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,207,36,Male,Filipino,"Cainta, Rizal",None, ,for_validation,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,208,67,Male,Filipino,Quezon City,for_validation, ,3/18/2020,Philippine Heart Center,14.64407,121.048067,1, ,3/18/2020,[],0
+PH,209,74,Male,Filipino,San Juan City,None, ,3/18/2020,Chinese General Hospital and Medical Center,14.625691,120.988565,1, ,3/18/2020,[],0
+PH,210,81,Male,Filipino,San Juan City,None, ,3/18/2020,Chinese General Hospital and Medical Center,14.625691,120.988565,0, ,3/18/2020,[],0
+PH,211,34,Female,Filipino,Valenzuela City,None, ,3/18/2020,Chinese General Hospital and Medical Center,14.625691,120.988565,1, ,3/18/2020,[],0
+PH,212,21,Male,Filipino,Quezon City,None, ,3/18/2020,Chinese General Hospital and Medical Center,14.625691,120.988565,1, ,3/18/2020,[],0
+PH,213,46,Male,Filipino,Manila City,None, ,3/18/2020,Chinese General Hospital and Medical Center,14.625691,120.988565,1, ,3/18/2020,[],0
+PH,214,44,Male,Indian,Quezon City,India, ,3/18/2020,Capitol Medical Center,14.634239,121.022776,1, ,3/18/2020,[],0
+PH,215,71,Male,Filipino,Quezon City,None, ,3/18/2020,Philippine Heart Center,14.64407,121.048067,0, ,3/18/2020,[],0
+PH,216,44,Male,Filipino,Quezon City,None, ,3/18/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/18/2020,[],0
+PH,217,54,Male,Filipino,Pasig City,None, ,3/18/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/18/2020,[],0
+PH,218,30,Male,Filipino,Mandaluyong City,for_validation, ,for_validation,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,219,72,Male,Filipino,Pasig City,for_validation, ,3/20/2020,Philippine Heart Center,14.64407,121.048067,1, ,3/20/2020,[],0
+PH,220,67,Female,Filipino,Pasig City,for_validation, ,3/20/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/20/2020,[],0
+PH,221,33,Male,Filipino,Quezon City,for_validation, ,3/20/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/20/2020,[],0
+PH,222,54,Male,Filipino,Marikina City,for_validation, ,3/20/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/20/2020,[],0
+PH,223,25,Male,Filipino,Quezon City,for_validation, ,3/20/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/20/2020,[],0
+PH,224,51,Male,Filipino,Quezon City,for_validation, ,3/20/2020,for_validation,14.615867,120.980991,1, ,3/20/2020,[],0
+PH,225,33,Female,Filipino,Taguig City,for_validation, ,3/20/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/20/2020,[],0
+PH,226,69,Male,Filipino,Quezon City,for_validation, ,3/20/2020,Delos Santos Medical Center,14.620153,121.017477,1, ,3/20/2020,[],0
+PH,227,55,Male,Filipino,Quezon City,for_validation, ,3/20/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,0, ,3/20/2020,[],0
+PH,228,36,Male,Filipino,Quezon City,for_validation, ,3/20/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/20/2020,[],0
+PH,229,57,Male,Filipino,Quezon City,for_validation, ,3/20/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/20/2020,[],0
+PH,230,48,Female,Filipino,Mandaluyong City,for_validation, ,3/20/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/20/2020,[],0
+PH,231,47,Female,Filipino,"Taytay, Rizal",for_validation, ,3/20/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/20/2020,[],0
+PH,232,63,Female,for_validation,for_validation,for_validation, ,3/20/2020,San Juan Medical Center,14.606611,121.023542,1, ,3/20/2020,[],0
+PH,233,26,Female,Filipino,"General Trias City, Cavite",for_validation, ,3/19/2020,for_validation,14.615867,120.980991,1, ,3/19/2020,[],0
+PH,234,35,Female,Filipino,Quezon City,for_validation, ,3/20/2020,Fe Del Mundo Medical Center,14.620412,121.009296,1, ,3/20/2020,[],0
+PH,235,30,Male,for_validation,for_validation,for_validation, ,3/20/2020,Victor R. Potenciano Medical Center,14.576983,121.050084,1, ,3/20/2020,[],0
+PH,236,54,Female,Filipino,Quezon City,for_validation, ,3/20/2020,Delos Santos Medical Center,14.620153,121.017477,1, ,3/20/2020,[],0
+PH,237,50,Male,for_validation,Quezon City,for_validation, ,3/20/2020,Delos Santos Medical Center,14.620153,121.017477,1, ,3/20/2020,[],0
+PH,238,47,Female,Filipino,"Rosario, Cavite",for_validation, ,3/20/2020,San Pedro Calungsod Medical Center,14.427836,120.894619,1, ,3/20/2020,[],0
+PH,239,76,Male,Filipino,"Bacoor City, Cavite",for_validation, ,3/20/2020,Binakayan Hospital And Medical Center,14.451741,120.926132,0, ,3/20/2020,[],0
+PH,240,35,Male,Filipino,"Tanauan City, Batangas",for_validation, ,3/20/2020,Daniel O. Mercado Medical Center,14.079849,121.15068,1, ,3/20/2020,[],0
+PH,241,29,Female,Filipino,Makati City,for_validation, ,3/20/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/20/2020,[],0
+PH,242,37,Female,Filipino,Mandaluyong City,for_validation, ,3/20/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/20/2020,[],0
+PH,243,60,Female,for_validation,for_validation,for_validation, ,3/20/2020,National Kidney and Transplant Institute,14.646807,121.047243,1, ,3/20/2020,[],0
+PH,244,41,Female,for_validation,"Caba, La Union",for_validation, ,3/20/2020,La Union Medical Center,16.346585,120.363845,1, ,3/20/2020,[],0
+PH,245,44,Male,for_validation,"Caba, La Union",for_validation, ,3/20/2020,La Union Medical Center,16.346585,120.363845,1, ,3/20/2020,[],0
+PH,246,37,Male,Filipino,"San Mateo, Rizal",for_validation, ,3/20/2020,Lung Center of the Philippines,14.647821,121.045763,1, ,3/20/2020,[],0
+PH,247,59,Female,for_validation,Quezon City,for_validation, ,3/20/2020,Lung Center of the Philippines,14.647821,121.045763,1, ,3/20/2020,[],0
+PH,248,55,Male,Filipino,Caloocan City,for_validation, ,3/20/2020,Lung Center of the Philippines,14.647821,121.045763,1, ,3/20/2020,[],0
+PH,249,33,Male,Filipino,Makati City,for_validation, ,3/20/2020,Makati Health Department,14.570365,121.027243,1, ,3/20/2020,[],0
+PH,250,22,Female,Filipino,Makati City,for_validation, ,3/20/2020,Makati Health Department,14.570365,121.027243,1, ,3/20/2020,[],0
+PH,251,29,Male,Filipino,Taguig City,for_validation, ,3/20/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/20/2020,[],0
+PH,252,60,Male,Filipino,Mandaluyong City,for_validation, ,3/20/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/20/2020,[],0
+PH,253,32,Male,Filipino,Makati City,for_validation, ,3/20/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/20/2020,[],0
+PH,254,33,Female,Filipino,Mandaluyong City,for_validation, ,3/20/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/20/2020,[],0
+PH,255,46,Male,Filipino,Quezon City,for_validation, ,3/20/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/20/2020,[],0
+PH,256,66,Female,Filipino,Taguig City,for_validation, ,3/20/2020,for_validation,14.615867,120.980991,1, ,3/20/2020,[],0
+PH,257,53,Male,Filipino,Pasig City,for_validation, ,3/20/2020,for_validation,14.615867,120.980991,1, ,3/20/2020,[],0
+PH,258,68,Male,American,Mandaluyong City,for_validation, ,3/20/2020,The Medical City,14.58989,121.069315,1, ,3/20/2020,[],0
+PH,259,70,Male,Filipino,Pasig City,None, ,3/20/2020,The Medical City,14.58989,121.069315,1, ,3/20/2020,[],0
+PH,260,32,Female,Filipino,Pasig City,for_validation, ,3/20/2020,for_validation,14.615867,120.980991,1, ,3/20/2020,[],0
+PH,261,51,Female,for_validation,for_validation,for_validation, ,3/20/2020,The Medical City,14.58989,121.069315,1, ,3/20/2020,[],0
+PH,262,45,Male,Filipino,"Davao City, Davao Del Sur",for_validation, ,3/20/2020,Southern Philippines Medical Center,7.09906,125.619406,1, ,3/20/2020,[],0
+PH,263,46,Female,Filipino,"Davao City, Davao Del Sur",for_validation, ,3/20/2020,Southern Philippines Medical Center,7.09906,125.619406,1, ,3/20/2020,[],0
+PH,264,90,Female,Filipino,San Juan City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/20/2020,[],0
+PH,265,82,Female,Filipino,Pasig City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/20/2020,[],0
+PH,266,71,Male,Filipino,Quezon City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,0, ,3/20/2020,[],0
+PH,267,56,Male,for_validation,"Bacolod City, Negros Occidental",for_validation, ,for_validation,Dr. Pablo  O. Torre Memorial Hospital,10.682819,122.957969,1, , ,[],0
+PH,268,77,Male,for_validation,San Juan City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/20/2020,[],0
+PH,269,51,Male,Filipino,Manila City,for_validation, ,for_validation,The Medical City - South Luzon,14.248433,121.067344,1, , ,[],0
+PH,270,56,Female,Filipino,San Juan City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/20/2020,[],0
+PH,271,60,Male,Filipino,Quezon City,for_validation, ,3/20/2020,San Lazaro Hospital,14.613754,120.980815,1, ,3/20/2020,[],0
+PH,272,68,Female,Filipino,Quezon City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/20/2020,[],0
+PH,273,26,Male,Australian,"Puerto Princesa City, Palawan",for_validation, ,3/20/2020,Ospital ng Palawan,9.747847,118.744383,1, ,3/20/2020,[],0
+PH,274,50,Male,Japanese,Makati City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/20/2020,[],0
+PH,275,44,Male,Filipino,"Tuguegarao City, Cagayan",for_validation, ,3/20/2020,Cagayan Valley Medical Center,17.656516,121.746768,1, ,3/20/2020,[],0
+PH,276,54,Male,Filipino,San Juan City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/20/2020,[],0
+PH,277,72,Female,Filipino,"Meycauayan City, Bulacan",for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/20/2020,[],0
+PH,278,72,Female,Filipino,San Juan City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/20/2020,[],0
+PH,279,73,Male,for_validation,for_validation,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,0, ,3/20/2020,[],0
+PH,280,69,Male,Filipino,Mandaluyong City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/20/2020,[],0
+PH,281,57,Male,Filipino,Mandaluyong City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,0, ,3/20/2020,[],0
+PH,282,68,Male,Filipino,Mandaluyong City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/20/2020,[],0
+PH,283,47,Female,Filipino,Quezon City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, ,3/20/2020,[],0
+PH,284,65,Male,for_validation,"Guimbal, Iloilo",for_validation, ,3/21/2020,The Medical City - Iloilo,10.699528,122.542836,1, ,3/21/2020,[],0
+PH,285,43,Male,for_validation,"San Isidro, Nueva Ecija",for_validation, ,3/21/2020,Dr. Paulino J Garcia Memorial Research And Medical Center,15.489271,120.972785,1, ,3/21/2020,[],0
+PH,286,45,Male,for_validation,"Cabanatuan City, Nueva Ecija",for_validation, ,3/21/2020,Dr. Paulino J Garcia Memorial Research And Medical Center,15.489271,120.972785,1, ,3/21/2020,[],0
+PH,287,56,Female,for_validation,Quezon City,for_validation, ,3/21/2020,Chinese General Hospital and Medical Center,14.625691,120.988565,1, ,3/21/2020,[],0
+PH,288,32,Male,Filipino,Manila City,for_validation, ,3/21/2020,Philippine Heart Center,14.64407,121.048067,1, ,3/21/2020,[],0
+PH,289,53,Female,for_validation,for_validation,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, ,3/21/2020,[],0
+PH,290,47,Female,for_validation,for_validation,for_validation, ,3/21/2020,Pasig Doctors Medical Center,14.600683,121.092135,1, ,3/21/2020,[],0
+PH,291,30,Female,for_validation,for_validation,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, ,3/21/2020,[],0
+PH,292,55,Female,for_validation,for_validation,for_validation, ,3/21/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/21/2020,[],0
+PH,293,43,Female,for_validation,for_validation,for_validation, ,3/21/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, ,3/21/2020,[],0
+PH,294,27,Male,Filipino,San Juan City,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, ,3/21/2020,[],0
+PH,295,35,Male,Filipino,Parañaque City,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, ,3/21/2020,[],0
+PH,296,37,Male,Filipino,San Juan City,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, ,3/21/2020,[],0
+PH,297,43,Female,Filipino,Quezon City,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, ,3/21/2020,[],0
+PH,298,22,Male,Filipino,San Juan City,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, ,3/21/2020,[],0
+PH,299,42,Male,Filipino,San Juan City,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, ,3/21/2020,[],0
+PH,300,23,Female,Filipino,San Juan City,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, ,3/21/2020,[],0
+PH,301,57,Female,Filipino,Manila City,for_validation, ,3/21/2020,San Lazaro Hospital,14.613754,120.980815,1, ,3/21/2020,[],0
+PH,302,31,Female,for_validation,for_validation,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,303,24,Male,for_validation,"Limay, Bataan",for_validation, ,3/21/2020,Bataan General Hospital And Medical Center,14.678271,120.530364,1, ,3/21/2020,[],0
+PH,304,89,Male,Filipino,"San Ildefonso, Bulacan",for_validation, ,3/21/2020,Jose B. Lingad Memorial Regional Hospital,15.03451,120.684733,0, ,3/21/2020,[],0
+PH,305,63,Female,Filipino,Manila City,for_validation, ,3/21/2020,Manila Doctors Hospital,14.582028,120.982657,1, ,3/21/2020,[],0
+PH,306,67,Female,for_validation,for_validation,for_validation, ,3/21/2020,Manila Doctors Hospital,14.582028,120.982657,1, ,3/21/2020,[],0
+PH,307,62,Female,for_validation,Pateros,for_validation, ,3/21/2020,Rizal Medical Center,14.564216,121.065879,1, ,3/21/2020,[],0
+PH,308,62,Male,for_validation,for_validation,for_validation, ,3/21/2020,Rizal Medical Center,14.564216,121.065879,1, ,3/21/2020,[],0
+PH,309,35,Male,for_validation,for_validation,for_validation, ,3/21/2020,Rizal Medical Center,14.564216,121.065879,1, ,3/21/2020,[],0
+PH,310,60,Female,Filipino,Quezon City,for_validation, ,3/21/2020,San Lazaro Hospital,14.613754,120.980815,0, ,3/21/2020,[],0
+PH,311,51,Male,Filipino,for_validation,for_validation, ,3/21/2020,Lung Center of the Philippines,14.647821,121.045763,1, ,3/21/2020,[],0
+PH,312,48,Male,Filipino,"Rodriguez, Rizal",for_validation, ,3/21/2020,Lung Center of the Philippines,14.647821,121.045763,1, ,3/21/2020,[],0
+PH,313,63,Male,Filipino,"Binangonan, Rizal",for_validation, ,3/21/2020,Lung Center of the Philippines,14.647821,121.045763,1, ,3/21/2020,[],0
+PH,314,46,Male,Filipino,for_validation,for_validation, ,3/21/2020,Lung Center of the Philippines,14.647821,121.045763,1, ,3/21/2020,[],0
+PH,315,37,Male,for_validation,for_validation,for_validation, ,3/21/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/21/2020,[],0
+PH,316,40,Female,for_validation,for_validation,for_validation, ,3/21/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/21/2020,[],0
+PH,317,75,Female,for_validation,for_validation,for_validation, ,3/21/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/21/2020,[],0
+PH,318,62,Female,for_validation,for_validation,for_validation, ,3/21/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, ,3/21/2020,[],0
+PH,319,56,Male,Filipino,Quezon City,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,0, ,3/21/2020,[],0
+PH,320,51,Female,Filipino,Quezon City,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,321,46,Male,Filipino,"Antipolo City, Rizal",for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,322,59,Male,for_validation,for_validation,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,323,25,Female,for_validation,Pasay City,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,324,26,Female,Filipino,Mandaluyong City,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,325,52,Male,Filipino,Quezon City,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,326,57,Male,Filipino,Caloocan City,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,0, ,3/21/2020,[],0
+PH,327,46,Male,Filipino,"Cabuyao City, Laguna",for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,328,74,Male,Filipino,Quezon City,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,0, ,3/21/2020,[],0
+PH,329,23,Male,Filipino,Bulacan,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,330,50,Female,Filipino,Valenzuela City,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,331,27,Female,Filipino,Quezon City,USA, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,332,54,Male,Filipino,Quezon City,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,333,65,Male,Filipino,Quezon City,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,0, ,3/21/2020,[],0
+PH,334,67,Female,Filipino,Quezon City,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,335,23,Male,Filipino,Quezon City,for_validation, ,3/21/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, ,3/21/2020,[],0
+PH,336,51,Female,for_validation,Las Piñas City,for_validation, ,3/21/2020,Makati Medical Center,14.559177,121.014546,1, ,3/21/2020,[],0
+PH,337,54,Male,Filipino,Taguig City,for_validation, ,3/21/2020,Makati Medical Center,14.559177,121.014546,1, ,3/21/2020,[],0
+PH,338,42,Male,Filipino,Manila City,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, ,3/21/2020,[],0
+PH,339,44,Male,Filipino,Makati City,for_validation, ,for_validation,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,340,52,Male,Filipino,Pasay City,for_validation, ,3/21/2020,Makati Medical Center,14.559177,121.014546,1, ,3/21/2020,[],0
+PH,341,26,Female,Filipino,Makati City,for_validation, ,3/21/2020,Makati Medical Center,14.559177,121.014546,1, ,3/21/2020,[],0
+PH,342,29,Female,Filipino,Manila City,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, ,3/21/2020,[],0
+PH,343,29,Male,Filipino,Manila City,for_validation, ,for_validation,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,344,57,Female,Filipino,Taguig City,for_validation, ,for_validation,for_validation,14.615867,120.980991,1, , ,[],0
+PH,345,67,Male,Filipino,Taguig City,for_validation, ,for_validation,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,346,64,Female,Filipino,Manila City,for_validation, ,for_validation,for_validation,14.615867,120.980991,1, , ,[],0
+PH,347,66,Male,Filipino,Quezon City,for_validation, ,for_validation,for_validation,14.615867,120.980991,1, , ,[],0
+PH,348,49,Male,Filipino,Makati City,for_validation, ,for_validation,for_validation,14.615867,120.980991,1, , ,[],0
+PH,349,56,Male,for_validation,Parañaque City,for_validation, ,for_validation,Makati Medical Center,14.559177,121.014546,0, , ,[],0
+PH,350,67,Male,for_validation,for_validation,for_validation, ,for_validation,Veterans Memorial Medical Center,14.65616,121.04012,1, , ,[],0
+PH,351,56,Male,Filipino,San Juan City,for_validation, ,3/20/2020,Cardinal Santos Medical Center,14.597596,121.045994,0, , ,[],0
+PH,352,58,Female,Filipino,Makati City,for_validation, ,3/20/2020,Makati Health Department,14.570365,121.027243,1, , ,[],0
+PH,353,31,Female,for_validation,for_validation,for_validation, ,3/20/2020,Rosario Maclang Bautista General Hospital,14.686009,121.089385,1, , ,[],0
+PH,354,80,Female,Filipino,"Taytay, Rizal",for_validation, ,3/20/2020,Angono Medics Hospital,14.531272,121.152922,1, , ,[],0
+PH,355,32,Male,Filipino,Batangas City,for_validation, ,3/20/2020,De La Salle University Medical Center,14.327171,120.94343,1, , ,[],0
+PH,356,71,Female,Filipino,"San Pedro City, Laguna",for_validation, ,3/21/2020,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,357,33,Male,Filipino,"Santa Rosa City, Laguna",for_validation, ,3/21/2020,Sinai Hospital,14.31775,121.098356,1, , ,[],0
+PH,358,35,Male,Filipino,Pasig City,for_validation, ,3/21/2020,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,359,21,Female,for_validation,Las Piñas City,for_validation, ,3/21/2020,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,360,39,Male,Filipino,"Biñan City, Laguna",for_validation, ,3/21/2020,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,361,30,Male,Filipino,Parañaque City,for_validation, ,3/21/2020,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,362,45,Male,Filipino,"Calamba City, Laguna",for_validation, ,3/21/2020,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,363,63,Male,Filipino,"Bacoor City, Cavite",for_validation, ,3/21/2020,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,364,49,Male,Filipino,Muntinlupa City,for_validation, ,3/21/2020,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,365,48,Female,Filipino,Muntinlupa City,for_validation, ,3/21/2020,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,366,63,Male,Filipino,Muntinlupa City,for_validation, ,3/21/2020,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,367,78,Male,for_validation,Parañaque City,for_validation, ,3/21/2020,Asian Hospital And Medical Center,14.413478,121.043612,0, , ,[],0
+PH,368,67,Female,Filipino,Batangas City,for_validation, ,3/20/2020,Asian Hospital And Medical Center,14.413478,121.043612,1, , ,[],0
+PH,369,53,Female,for_validation,for_validation,for_validation, ,3/20/2020,Fe Del Mundo Medical Center,14.620412,121.009296,1, , ,[],0
+PH,370,68,Female,for_validation,for_validation,for_validation, ,3/20/2020,Olivarez General Hospital,14.479004,120.99721,1, , ,[],0
+PH,371,67,Female,for_validation,for_validation,for_validation, ,3/20/2020,Rizal Medical Center,14.564216,121.065879,1, , ,[],0
+PH,372,20,Female,Filipino,"Jala-Jala, Rizal",for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, , ,[],0
+PH,373,71,Male,Filipino,Quezon City,for_validation, ,3/21/2020,World Citi Medical Center,14.627445,121.063224,1, , ,[],0
+PH,374,35,Male,Filipino,Makati City,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, , ,[],0
+PH,375,33,Male,Filipino,Pasig City,for_validation, ,3/21/2020,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,376,61,Male,Filipino,"Antipolo City, Rizal",for_validation, ,3/21/2020,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,377,42,Male,Filipino,"Cainta, Rizal",for_validation, ,3/21/2020,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,378,31,Female,Filipino,Quezon City,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, , ,[],0
+PH,379,23,Male,Filipino,Makati City,for_validation, ,3/21/2020,for_validation,14.615867,120.980991,1, , ,[],0
+PH,380,43,Female,Filipino,Pasay City,for_validation, ,3/17/2020,Research Institute for Tropical Medicine,14.409523,121.037122,1, , ,[],0
+PH,381,62,Male,Filipino,"Naic, Cavite",for_validation, ,3/22/2020,for_validation,14.615867,120.980991,1, , ,[],0
+PH,382,63,Female,Filipino,Quezon City,for_validation, ,3/22/2020,East Avenue Medical Center,14.642167,121.048063,1, , ,[],0
+PH,383,27,Female,Filipino,for_validation,for_validation, ,3/22/2020,for_validation,14.615867,120.980991,1, , ,[],0
+PH,384,70,Female,for_validation,for_validation,for_validation, ,3/22/2020,Medical Center Parañaque,14.45825,121.033376,1, , ,[],0
+PH,385,25,Male,for_validation,for_validation,for_validation, ,3/22/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,386,56,Male,for_validation,for_validation,for_validation, ,3/22/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,387,56,Male,for_validation,for_validation,for_validation, ,3/22/2020,Sacred Heart Hospital of Malolos,14.851641,120.817766,1, , ,[],0
+PH,388,57,Female,for_validation,for_validation,for_validation, ,3/22/2020,Quezon City Health Department,14.646154,121.052315,1, , ,[],0
+PH,389,71,Female,Filipino,for_validation,for_validation, ,3/22/2020,University of Sto. Tomas Hospital,14.611635,120.990153,1, , ,[],0
+PH,390,30,Female,Filipino,Cavite,for_validation, ,3/22/2020,Divine Grace Medical Center,14.39785,120.868043,1, , ,[],0
+PH,391,80,Female,for_validation,for_validation,for_validation, ,3/22/2020,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581,1, , ,[],0
+PH,392,20,Male,for_validation,for_validation,for_validation, ,3/22/2020,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581,1, , ,[],0
+PH,393,74,Male,for_validation,for_validation,for_validation, ,3/22/2020,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581,1, , ,[],0
+PH,394,65,Male,for_validation,for_validation,for_validation, ,3/22/2020,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581,1, , ,[],0
+PH,395,69,Male,for_validation,for_validation,for_validation, ,3/22/2020,Quezon City General Hospital,14.661098,121.018193,1, , ,[],0
+PH,396,25,Male,Filipino,"Cainta, Rizal",for_validation, ,3/22/2020,Lung Center Of The Philippines,14.647821,121.045763,1, , ,[],0
+PH,397,56,Male,Filipino,"Cainta, Rizal",for_validation, ,3/22/2020,for_validation,14.615867,120.980991,1, , ,[],0
+PH,398,29,Male,for_validation,for_validation,for_validation, ,3/22/2020,Metropolitan Medical Center,14.609723,120.978397,1, , ,[],0
+PH,399,73,Male,for_validation,for_validation,for_validation, ,3/22/2020,Metropolitan Medical Center,14.609723,120.978397,1, , ,[],0
+PH,400,49,Male,for_validation,for_validation,for_validation, ,3/22/2020,Metropolitan Medical Center,14.609723,120.978397,1, , ,[],0
+PH,401,62,Male,Filipino,Manila City,for_validation, ,3/23/2020,Manila Doctors Hospital,14.582028,120.982657,1, , ,[],0
+PH,402,61,Female,Filipino,Manila City,for_validation, ,3/23/2020,Manila Doctors Hospital,14.582028,120.982657,1, , ,[],0
+PH,403,50,Male,Filipino,Manila City,for_validation, ,3/22/2020,Manila Doctors Hospital,14.582028,120.982657,1, , ,[],0
+PH,404,73,Male,Filipino,Manila City,for_validation, ,3/22/2020,Manila Doctors Hospital,14.582028,120.982657,1, , ,[],0
+PH,405,52,Male,Filipino,Manila City,for_validation, ,3/22/2020,Manila Doctors Hospital,14.582028,120.982657,1, , ,[],0
+PH,406,26,Male,Filipino,"Cabuyao City, Laguna",for_validation, ,3/22/2020,Manila Doctors Hospital,14.582028,120.982657,1, , ,[],0
+PH,407,41,Female,Filipino,Mandaluyong City,for_validation, ,3/22/2020,Manila Doctors Hospital,14.582028,120.982657,1, , ,[],0
+PH,408,62,Male,Filipino,Quezon City,for_validation, ,3/22/2020,Philippine Heart Center,14.64407,121.048067,1, , ,[],0
+PH,409,30,Male,Filipino,for_validation,for_validation, ,3/22/2020,Philippine Heart Center,14.64407,121.048067,1, , ,[],0
+PH,410,54,Male,for_validation,for_validation,for_validation, , ,Lung Center of the Philippines,14.647821,121.045763,1, , ,[],0
+PH,411,53,Male,for_validation,for_validation,for_validation, ,3/22/2020,Perpetual Succor Hospital,14.608177,120.992337,1, , ,[],0
+PH,412,65,Male,for_validation,for_validation,for_validation, , ,Lung Center of the Philippines,14.647821,121.045763,1, , ,[],0
+PH,413,31,Female,for_validation,for_validation,for_validation, ,3/22/2020,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,414,34,Female,for_validation,for_validation,for_validation, , ,Lung Center of the Philippines,14.647821,121.045763,1, , ,[],0
+PH,415,78,Female,for_validation,for_validation,for_validation, ,3/22/2020,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,416,57,Female,for_validation,for_validation,for_validation, ,3/22/2020,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,417,52,Male,for_validation,for_validation,for_validation, ,3/22/2020,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,418,70,Male,for_validation,for_validation,for_validation, ,3/22/2020,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,419,33,Female,for_validation,for_validation,for_validation, ,3/22/2020,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,420,68,Male,for_validation,for_validation,for_validation, ,3/22/2020,Pasig City General Hospital,14.5724,121.099201,1, , ,[],0
+PH,421,28,Female,for_validation,for_validation,for_validation, ,3/22/2020,National Center for Mental Health,14.581033,121.042788,1, , ,[],0
+PH,422,64,Female,for_validation,for_validation,for_validation, ,3/22/2020,Lung Center of the Philippines,14.647821,121.045763,1, , ,[],0
+PH,423,32,Female,for_validation,for_validation,for_validation, ,3/22/2020,Victor R. Potenciano Medical Center,14.576983,121.050084,1, , ,[],0
+PH,424,53,Male,for_validation,for_validation,for_validation, ,3/22/2020,Victor R. Potenciano Medical Center,14.576983,121.050084,1, , ,[],0
+PH,425,69,Male,for_validation,for_validation,for_validation, ,3/22/2020,Providence Hospital,14.640992,121.031746,1, , ,[],0
+PH,426,57,Male,for_validation,for_validation,for_validation, ,3/22/2020,Providence Hospital,14.640992,121.031746,1, , ,[],0
+PH,427,60,Male,for_validation,for_validation,for_validation, ,3/22/2020,for_validation,14.615867,120.980991,1, , ,[],0
+PH,428,24,Male,for_validation,for_validation,for_validation, ,3/22/2020,for_validation,14.615867,120.980991,1, , ,[],0
+PH,429,62,Male,for_validation,for_validation,for_validation, ,3/22/2020,for_validation,14.615867,120.980991,1, , ,[],0
+PH,430,19,Male,for_validation,for_validation,for_validation, ,3/22/2020,for_validation,14.615867,120.980991,1, , ,[],0
+PH,431,21,Female,for_validation,for_validation,for_validation, ,3/22/2020,Mandaluyong City Medical Center,14.576313,121.035279,1, , ,[],0
+PH,432,56,Female,for_validation,for_validation,for_validation, ,3/22/2020,Veterans Memorial Medical Center,14.65616,121.04012,1, , ,[],0
+PH,433,70,Male,for_validation,for_validation,for_validation, ,3/22/2020,Veterans Memorial Medical Center,14.65616,121.04012,1, , ,[],0
+PH,434,47,Male,for_validation,for_validation,for_validation, ,3/22/2020,Veterans Memorial Medical Center,14.65616,121.04012,1, , ,[],0
+PH,435,60,Male,for_validation,for_validation,for_validation, ,3/22/2020,FEU - Dr. Nicanor Reyes Medical Foundation,14.698851,121.067192,1, , ,[],0
+PH,436,75,Male,Filipino,Quezon City,for_validation, ,3/22/2020,University of Sto. Tomas Hospital,14.611635,120.990153,1, , ,[],0
+PH,437,57,Male,Filipino,Manila City,for_validation, ,3/22/2020,University of Sto. Tomas Hospital,14.611635,120.990153,1, , ,[],0
+PH,438,73,Female,for_validation,for_validation,for_validation, ,3/22/2020,for_validation,14.615867,120.980991,1, , ,[],0
+PH,439,44,Female,for_validation,for_validation,for_validation, ,3/22/2020,Medical Center Manila,14.582445,120.985646,1, , ,[],0
+PH,440,53,Male,Filipino,Manila City,for_validation, ,3/22/2020,Medical Center Manila,14.582445,120.985646,1, , ,[],0
+PH,441,61,Female,Filipino,"Baguio City, Benguet",for_validation, ,3/22/2020,Baguio General Hospital And Medical Center,16.401304,120.596418,1, , ,[],0
+PH,442,28,Male,for_validation,for_validation,for_validation, ,3/22/2020,Southern Philippines Medical Center,7.09906,125.619406,1, , ,[],0
+PH,443,32,Male,for_validation,for_validation,for_validation, ,3/22/2020,Southern Philippines Medical Center,7.09906,125.619406,1, , ,[],0
+PH,444,50,Male,for_validation,for_validation,for_validation, ,3/22/2020,Davao Regional Medical Center,7.421699,125.828704,1, , ,[],0
+PH,445,50,Female,for_validation,for_validation,for_validation, ,3/22/2020,Perpetual Succor Hospital,14.608177,120.992337,1, , ,[],0
+PH,446,56,Female,Filipino,"Cainta, Rizal",for_validation, ,3/22/2020,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,447,49,Male,Filipino,Quezon City,for_validation, ,3/22/2020,Fe Del Mundo Medical Center,14.620412,121.009296,1, , ,[],0
+PH,448,63,Female,for_validation,for_validation,for_validation, ,3/22/2020,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,449,42,Female,for_validation,for_validation,for_validation, ,3/22/2020,San Lazaro Hospital,14.613754,120.980815,1, , ,[],0
+PH,450,56,Female,for_validation,for_validation,for_validation, ,3/22/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,451,70,Male,Filipino,Pasay City,for_validation, ,3/22/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,452,63,Female,for_validation,for_validation,for_validation, ,3/22/2020,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,453,71,Male,Filipino,San Juan City,for_validation, ,3/22/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, , ,[],0
+PH,454,63,Female,for_validation,for_validation,for_validation, ,3/22/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, , ,[],0
+PH,455,45,Female,Filipino,Quezon City,for_validation, ,3/22/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, , ,[],0
+PH,456,51,Male,for_validation,for_validation,for_validation, ,3/22/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, , ,[],0
+PH,457,37,Male,Filipino,Quezon City,for_validation, ,3/22/2020,Quezon City General Hospital,14.661098,121.018193,1, , ,[],0
+PH,458,52,Male,Filipino,Manila City,for_validation, ,3/22/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, , ,[],0
+PH,459,63,Female,Filipino,Manila City,for_validation, ,3/22/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, , ,[],0
+PH,460,54,Male,Filipino,Quezon City,for_validation, ,3/22/2020,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, , ,[],0
+PH,461,64,Male,Filipino,Manila City,for_validation, ,3/22/2020,University of Sto. Tomas Hospital,14.611635,120.990153,1, , ,[],0
+PH,462,83,Female,Filipino,"Naic, Cavite",for_validation, ,3/22/2020,University of Sto. Tomas Hospital,14.611635,120.990153,1, , ,[],0
+PH,463,63,Female,Filipino,Quezon City,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,464,53,Male,for_validation,for_validation,for_validation, , ,Jose B. Lingad Memorial Regional Hospital,15.03451,120.684733,1, , ,[],0
+PH,465,85,Female,for_validation,Pasig City,for_validation, , ,Ace Medical Center,14.544081,121.065192,1, , ,[],0
+PH,466,53,Male,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,467,56,Male,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,468,44,Male,Filipino,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,469,63,Male,for_validation,for_validation,for_validation, , ,Perpetual Health Medical Center- Biñan,14.330259,121.085064,1, , ,[],0
+PH,470,55,Male,Filipino,"Santa Rosa City, Laguna",for_validation, , ,Perpetual Health Medical Center- Biñan,14.330259,121.085064,1, , ,[],0
+PH,471,40,Female,for_validation,for_validation,for_validation, , ,The Medical City - South Luzon,14.248433,121.067344,1, , ,[],0
+PH,472,58,Female,Filipino,"Biñan City, Laguna",for_validation, , ,"Uni-Health Southwoods Hospital And Medical Center, Inc.",14.331586,121.047944,1, , ,[],0
+PH,473,67,Female,for_validation,for_validation,for_validation, , ,City Of General Trias Doctors Medical Center,14.290936,120.904015,1, , ,[],0
+PH,474,63,Female,for_validation,Makati City,for_validation, , ,Cavite Medical Center,14.463347,120.881936,1, , ,[],0
+PH,475,40,Female,Filipino,Makati City,for_validation, , ,Makati Health Department,14.570365,121.027243,1, , ,[],0
+PH,476,64,Male,Filipino,Makati City,for_validation, , ,Makati Health Department,14.570365,121.027243,1, , ,[],0
+PH,477,33,Female,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,478,55,Female,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,479,48,Female,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,480,49,Female,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,481,54,Male,Filipino,Taguig City,for_validation, , ,Medical Center Taguig,14.530641,121.065475,1, , ,[],0
+PH,482,78,Male,Filipino,Taguig City,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,483,75,Female,Filipino,Taguig City,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,484,27,Female,Filipino,Taguig City,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,485,39,Female,Filipino,Taguig City,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,486,54,Female,Filipino,"Lucena City, Quezon",for_validation, , ,Lucena United Doctors Hospital,13.947352,121.585181,1, , ,[],0
+PH,487,26,Male,Filipino,"Sariaya, Quezon",for_validation, , ,Quezon Medical Center,13.942133,121.612553,1, , ,[],0
+PH,488,81,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,489,51,Female,Filipino,"Catarman, Northern Samar",for_validation, , ,Eastern Visayas Regional Medical Center,11.251016,125.004494,1, , ,[],0
+PH,490,56,Female,for_validation,for_validation,for_validation, , ,Amai Pakpak Medical Center,8.004392,124.283897,1, , ,[],0
+PH,491,61,Male,for_validation,for_validation,for_validation, , ,Amai Pakpak Medical Center,8.004392,124.283897,1, , ,[],0
+PH,492,47,Male,for_validation,"Masiu, Lanao Del Sur",for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,493,70,Male,for_validation,for_validation,for_validation, , ,Santa Ana Hospital,14.583621,121.016425,1, , ,[],0
+PH,494,66,Male,for_validation,for_validation,for_validation, , ,Santa Ana Hospital,14.583621,121.016425,1, , ,[],0
+PH,495,24,Male,Filipino,Batangas City,for_validation, , ,Batangas Health Care Hospital - Jesus Of Nazareth,13.759382,121.076785,1, , ,[],0
+PH,496,53,Male,for_validation,for_validation,for_validation, , ,National Kidney and Transplant Institute,14.646807,121.047243,1, , ,[],0
+PH,497,83,Male,for_validation,for_validation,for_validation, , ,Capitol Medical Center,14.634239,121.022776,1, , ,[],0
+PH,498,72,Female,for_validation,for_validation,for_validation, , ,Capitol Medical Center,14.634239,121.022776,1, , ,[],0
+PH,499,29,Female,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,500,54,Female,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,501,60,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,502,56,Female,Filipino,San Juan City,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,503,74,Male,Filipino,San Juan City,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,504,61,Male,Filipino,San Juan City,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,505,32,Male,Filipino,Manila City,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,506,45,Male,Filipino,San Juan City,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,507,49,Male,Filipino,Mandaluyong City,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,508,74,Female,Filipino,San Juan City,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,509,69,Female,for_validation,San Juan City,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,510,69,Male,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,511,35,Female,Filipino,Quezon City,for_validation, , ,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, , ,[],0
+PH,512,53,Male,Filipino,Mandaluyong City,for_validation, , ,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, , ,[],0
+PH,513,68,Female,Filipino,Quezon City,for_validation, , ,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, , ,[],0
+PH,514,39,Female,Filipino,Quezon City,for_validation, , ,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, , ,[],0
+PH,515,71,Male,Filipino,Quezon City,for_validation, , ,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, , ,[],0
+PH,516,31,Male,Filipino,Manila City,for_validation, , ,St. Luke's Medical Center - Quezon City,14.622677,121.023532,1, , ,[],0
+PH,517,66,Male,for_validation,for_validation,for_validation, , ,"Las Piñas Doctors Hospital, Inc.",14.45588,120.994232,1, , ,[],0
+PH,518,24,Male,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,519,19,Male,for_validation,for_validation,for_validation, , ,Dr. Paulino J Garcia Memorial Research And Medical Center,15.489271,120.972785,1, , ,[],0
+PH,520,49,Male,Filipino,Quezon City,for_validation, , ,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,521,73,Male,Filipino,Parañaque City,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,522,61,Female,Filipino,Pasig City,for_validation, , ,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,523,32,Male,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,524,60,Male,Filipino,Quezon City,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,525,75,Female,Filipino,Taguig City,for_validation, , ,Ospital ng Makati,14.546389,121.061827,1, , ,[],0
+PH,526,46,Female,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,527,50,Female,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,528,50,Female,for_validation,for_validation,for_validation, , ,Hospital of the Infant Jesus Medical Center,14.614131,120.989255,1, , ,[],0
+PH,529,55,Male,for_validation,for_validation,for_validation, , ,Bataan General Hospital And Medical Center,14.678271,120.530364,1, , ,[],0
+PH,530,49,Male,for_validation,for_validation,for_validation, , ,Victor R. Potenciano Medical Center,14.576983,121.050084,1, , ,[],0
+PH,531,34,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,532,31,Female,Filipino,San Juan City,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,533,20,Female,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,534,20,Male,Filipino,Pasig City,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,535,39,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,536,37,Female,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,537,22,Female,for_validation,for_validation,for_validation, , ,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,538,63,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,539,69,Female,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,540,50,Male,Filipino,Pasig City,for_validation, , ,Rizal Medical Center,14.564216,121.065879,1, , ,[],0
+PH,541,68,Female,for_validation,for_validation,for_validation, , ,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,542,38,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,543,55,Female,Filipino,Manila City,for_validation, , ,University of Sto. Tomas Hospital,14.611635,120.990153,1, , ,[],0
+PH,544,58,Male,Filipino,Parañaque City,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,545,39,Male,Filipino,Pasig City,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,546,31,Male,Filipino,Taguig City,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,547,38,Male,Filipino,Taguig City,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,548,47,Male,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,549,61,Female,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546,1, , ,[],0
+PH,550,63,Female,Filipino,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,551,31,Male,for_validation,for_validation,for_validation, , ,Victor R. Potenciano Medical Center,14.576983,121.050084,1, , ,[],0
+PH,552,65,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,553,54,Male,for_validation,for_validation,for_validation, , ,Metropolitan Medical Center,14.609723,120.978397,1, , ,[],0
+PH,554,46,Male,for_validation,for_validation,for_validation, , ,Medical Center Manila,14.582445,120.985646,1, , ,[],0
+PH,555,51,Female,for_validation,for_validation,for_validation, , ,Victoriano Luna Medical Center,14.6357147,121.0526552,1, , ,[],0
+PH,556,52,Male,for_validation,for_validation,for_validation, , ,Victoriano Luna Medical Center,14.6357147,121.0526552,1, , ,[],0
+PH,557,36,Female,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,558,63,Male,for_validation,for_validation,for_validation, , ,Alabang Medical Clinic,14.419232,121.050028,1, , ,[],0
+PH,559,54,Female,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,560,49,Male,for_validation,for_validation,for_validation, , ,Our Lady of Lourdes Hospital,14.594872,121.022557,1, , ,[],0
+PH,561,42,Female,Filipino,"Biñan City, Laguna",for_validation, , ,"San Pedro Doctors Hospital, Inc.",14.365294,121.046611,1, , ,[],0
+PH,562,24,Male,for_validation,for_validation,for_validation, , ,Dr. Damian Reyes Provincial Hospital,13.443431,121.828353,1, , ,[],0
+PH,563,69,Female,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,564,27,Female,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,565,48,Female,for_validation,for_validation,for_validation, , ,New Era General Hospital,14.664085,121.066728,1, , ,[],0
+PH,566,73,Male,for_validation,for_validation,for_validation, , ,New Era General Hospital,14.664085,121.066728,1, , ,[],0
+PH,567,67,Male,for_validation,for_validation,for_validation, , ,New Era General Hospital,14.664085,121.066728,1, , ,[],0
+PH,568,38,Male,Filipino,Taguig City,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,569,37,Male,Filipino,Makati City,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,570,58,Male,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,571,72,Female,Filipino,Muntinlupa City,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,572,42,Male,Filipino,Las Piñas City,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,573,45,Male,for_validation,"Roxas City, Capiz",for_validation, , ,Roxas Memorial Provincial Hospital,11.588005,122.752873,1, , ,[],0
+PH,574,60,Female,for_validation,"Iloilo City, Iloilo",for_validation, , ,The Medical City - Iloilo,10.699528,122.542836,1, , ,[],0
+PH,575,54,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,576,24,Female,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,577,64,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,578,51,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,579,27,Male,Filipino,Taguig City,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,580,33,Female,Filipino,Pasay City,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,581,79,Female,Filipino,Taguig City,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,582,60,Female,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,583,53,Male,for_validation,for_validation,for_validation, , ,East Avenue Medical Center,14.642167,121.048063,1, , ,[],0
+PH,584,71,Male,for_validation,for_validation,for_validation, , ,"Golden Gate Batangas Hospital, Inc.",13.757627,121.061744,1, , ,[],0
+PH,585,55,Male,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,586,21,Female,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,587,79,Male,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,588,60,Male,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,589,31,Male,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,590,63,Female,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,591,56,Female,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,592,55,Female,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,593,65,Male,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612,1, , ,[],0
+PH,594,57,Male,for_validation,for_validation,for_validation, , ,FEU - Dr. Nicanor Reyes Medical Foundation,14.698851,121.067192,1, , ,[],0
+PH,595,38,Male,for_validation,for_validation,for_validation, , ,St. Clare's Medical Center,14.562972,121.001317,1, , ,[],0
+PH,596,27,Female,for_validation,for_validation,for_validation, , ,Northern Mindanao Medical Center,8.485453,124.649503,1, , ,[],0
+PH,597,71,Male,for_validation,"Cagayan De Oro City, Misamis Oriental",for_validation, , ,Northern Mindanao Medical Center,8.485453,124.649503,1, , ,[],0
+PH,598,52,Female,for_validation,for_validation,for_validation, , ,Northern Mindanao Medical Center,8.485453,124.649503,1, , ,[],0
+PH,599,68,Female,for_validation,for_validation,for_validation, , ,Cotabato Regional and Medical Center,7.200405,124.236317,1, , ,[],0
+PH,600,87,Male,for_validation,"Lambayong, Sultan Kudarat",for_validation, , ,St. Louis Hospital,14.615867,120.980991,1, , ,[],0
+PH,601,58,Male,for_validation,for_validation,for_validation, , ,Marikina Valley Medical Center,14.634719,121.103987,1, , ,[],0
+PH,602,54,Male,for_validation,for_validation,for_validation, , ,Marikina Valley Medical Center,14.634719,121.103987,1, , ,[],0
+PH,603,57,Female,for_validation,for_validation,for_validation, , ,Marikina Valley Medical Center,14.634719,121.103987,1, , ,[],0
+PH,604,60,Male,for_validation,for_validation,for_validation, , ,Chinese General Hospital and Medical Center,14.625691,120.988565,1, , ,[],0
+PH,605,71,Male,for_validation,for_validation,for_validation, , ,Chinese General Hospital and Medical Center,14.625691,120.988565,1, , ,[],0
+PH,606,56,Female,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,607,70,Male,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,608,70,Male,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,609,76,Male,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,610,28,Female,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,611,62,Male,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,612,72,Male,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994,1, , ,[],0
+PH,613,29,Male,Filipino,"Zamboanga City, Zamboanga Del Sur",for_validation, , ,West Metro Medical Center,6.923408,122.07916,1, , ,[],0
+PH,614,47,Female,for_validation,for_validation,for_validation, , ,Fatima University Medical Center,14.619168,121.152184,1, , ,[],0
+PH,615,33,Female,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,616,46,Male,for_validation,for_validation,for_validation, , ,Jose B. Lingad Memorial Regional Hospital,15.03451,120.684733,1, , ,[],0
+PH,617,28,Male,for_validation,for_validation,for_validation, , ,Jose B. Lingad Memorial Regional Hospital,15.03451,120.684733,1, , ,[],0
+PH,618,67,Female,for_validation,for_validation,for_validation, , ,UP-Philippine General Hospital,14.57768,120.985847,1, , ,[],0
+PH,619,67,Female,for_validation,for_validation,for_validation, , ,UP-Philippine General Hospital,14.57768,120.985847,1, , ,[],0
+PH,620,58,Female,for_validation,for_validation,for_validation, , ,UP-Philippine General Hospital,14.57768,120.985847,1, , ,[],0
+PH,621,77,Male,for_validation,for_validation,for_validation, , ,UP-Philippine General Hospital,14.57768,120.985847,1, , ,[],0
+PH,622,60,Male,Filipino,"Cainta, Rizal",for_validation, , ,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,623,49,Male,for_validation,for_validation,for_validation, , ,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,624,74,Male,for_validation,for_validation,for_validation, , ,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,625,70,Male,for_validation,for_validation,for_validation, , ,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,626,55,Female,for_validation,for_validation,for_validation, , ,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,627,65,Female,for_validation,for_validation,for_validation, , ,The Medical City,14.58989,121.069315,1, , ,[],0
+PH,628,25,Female,for_validation,for_validation,for_validation, , ,Quezon City Health Department,14.646154,121.052315,1, , ,[],0
+PH,629,58,Male,for_validation,for_validation,for_validation, , ,Our Lady of Lourdes Hospital,14.594872,121.022557,1, , ,[],0
+PH,630,61,Male,for_validation,for_validation,for_validation, , ,Veterans Memorial Medical Center,14.65616,121.04012,1, , ,[],0
+PH,631,34,Female,for_validation,"Cainta, Rizal",for_validation, , ,Cornel Medical Center,14.620711,121.197101,1, , ,[],0
+PH,632,67,Male,for_validation,"Antipolo City, Rizal",for_validation, , ,Clinica Antipolo Hospital,14.589563,121.169854,1, , ,[],0
+PH,633,27,Female,for_validation,Taguig City,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,634,57,Male,for_validation,"Antipolo City, Rizal",for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,635,80,Female,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256,1, , ,[],0
+PH,636,56,Male,Filipino,for_validation,for_validation, , ,for_validation,14.615867,120.980991,1, , ,[],0
+PH,637,75,Male,Filipino,Quezon City,for_validation, , ,St. Luke's Medical Center - Quezon City,14.622677,121.023532, , , ,[],0
+PH,638,74,Female,Filipino,Quezon City,for_validation, , ,St. Luke's Medical Center - Quezon City,14.622677,121.023532, , , ,[],0
+PH,639,56,Male,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991, , , ,[],0
+PH,640,64,Male,for_validation,for_validation,for_validation, , ,Olivarez General Hospital,14.479004,120.99721, , , ,[],0
+PH,641,52,Female,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,642,72,Female,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256, , , ,[],0
+PH,643,33,Male,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,644,68,Male,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,645,29,Male,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,646,75,Male,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612, , , ,[],0
+PH,647,43,Male,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612, , , ,[],0
+PH,648,71,Male,for_validation,for_validation,for_validation, , ,Our Lady Of Lourdes Hospital,14.594872,121.022557, , , ,[],0
+PH,649,60,Male,for_validation,for_validation,for_validation, , ,Clinica Antipolo Hospital,14.589563,121.169854, , , ,[],0
+PH,650,80,Female,for_validation,for_validation,for_validation, , ,Clinica Antipolo Hospital,14.589563,121.169854, , , ,[],0
+PH,651,63,Male,for_validation,for_validation,for_validation, , ,Dr. Paulino J. Garcia Memorial Research & Medical Center,15.489271,120.972785, , , ,[],0
+PH,652,39,Male,for_validation,for_validation,for_validation, , ,Gerona Hospital Of Sacred Heart,15.608351,120.605658, , , ,[],0
+PH,653,65,Female,for_validation,for_validation,for_validation, , ,"Nueva Ecija Doctors Hospital, Inc.",15.457694,120.94897, , , ,[],0
+PH,654,60,Female,for_validation,for_validation,for_validation, , ,"Nueva Ecija Doctors Hospital, Inc.",15.457694,120.94897, , , ,[],0
+PH,655,66,Male,for_validation,for_validation,for_validation, , ,Pampanga Premier Medical Center,14.960176,120.759111, , , ,[],0
+PH,656,73,Male,for_validation,for_validation,for_validation, , ,Ramon Magsaysay Memorial Hospital,15.316187,119.991668, , , ,[],0
+PH,657,75,Female,for_validation,for_validation,for_validation, , ,Tarlac Provincial Hospital,15.4750405,120.5865492, , , ,[],0
+PH,658,57,Male,for_validation,for_validation,for_validation, , ,East Avenue Medical Center,14.642167,121.048063, , , ,[],0
+PH,659,67,Female,for_validation,for_validation,for_validation, , ,Ospital Ng Parañaque,14.500445,120.991175, , , ,[],0
+PH,660,60,Male,for_validation,for_validation,for_validation, , ,Ospital Ng Parañaque,14.500445,120.991175, , , ,[],0
+PH,661,39,Male,Filipino,"Tuao, Cagayan",for_validation, , ,Cagayan Valley Medical Center,17.656516,121.746768, , , ,[],0
+PH,662,70,Male,Filipino,"Gattaran, Cagayan",for_validation, , ,Cagayan Valley Medical Center,17.656516,121.746768, , , ,[],0
+PH,663,44,Female,for_validation,for_validation,for_validation, , ,Binangonan Lakeview Hospital,14.502527,121.170157, , , ,[],0
+PH,664,62,Male,for_validation,"Antipolo City, Rizal",for_validation, , ,for_validation,14.615867,120.980991, , , ,[],0
+PH,665,26,Female,for_validation,"Antipolo City, Rizal",for_validation, , ,for_validation,14.615867,120.980991, , , ,[],0
+PH,666,70,Female,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991, , , ,[],0
+PH,667,50,Female,for_validation,for_validation,for_validation, , ,Dasmariñas City Medical Center,14.353231,120.981411, , , ,[],0
+PH,668,92,Female,Filipino,"Lumban, Laguna",for_validation, , ,Laguna Doctors Hospital,14.272595,121.418975, , , ,[],0
+PH,669,69,Male,for_validation,for_validation,for_validation, , ,Laguna Medical Center,14.275288,121.418905, , , ,[],0
+PH,670,39,Male,for_validation,for_validation,for_validation, , ,Our Lady Of Pillar Medical Center,14.41903,120.939225, , , ,[],0
+PH,671,89,Male,for_validation,for_validation,for_validation, , ,San Pedro Calungsod Medical Center,14.427836,120.894619, , , ,[],0
+PH,672,82,Male,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994, , , ,[],0
+PH,673,51,Male,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994, , , ,[],0
+PH,674,46,Female,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994, , , ,[],0
+PH,675,67,Male,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994, , , ,[],0
+PH,676,64,Male,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994, , , ,[],0
+PH,677,60,Male,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994, , , ,[],0
+PH,678,67,Female,for_validation,for_validation,for_validation, , ,Urdaneta Sacred Heart Hospital,15.980674,120.570585, , , ,[],0
+PH,679,70,Male,for_validation,for_validation,for_validation, , ,Pangasinan Provincial Hospital,15.954348,120.349526, , , ,[],0
+PH,680,54,Female,for_validation,for_validation,for_validation, , ,Pangasinan Provincial Hospital,15.954348,120.349526, , , ,[],0
+PH,681,57,Male,for_validation,for_validation,for_validation, , ,Our Lady of Lourdes Hospital,14.594872,121.022557, , , ,[],0
+PH,682,60,Male,for_validation,for_validation,for_validation, , ,Lung Center Of The Philippines,14.647821,121.045763, , , ,[],0
+PH,683,67,Male,for_validation,for_validation,for_validation, , ,Lung Center Of The Philippines,14.647821,121.045763, , , ,[],0
+PH,684,52,Female,Filipino,"Baguio City, Benguet",for_validation, , ,Baguio General Hospital and Medical Center,16.401304,120.596418, , , ,[],0
+PH,685,55,Male,Filipino,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,686,51,Male,for_validation,for_validation,for_validation, , ,Lung Center of the Philippines,14.647821,121.045763, , , ,[],0
+PH,687,57,Male,for_validation,for_validation,for_validation, , ,Lung Center of the Philippines,14.647821,121.045763, , , ,[],0
+PH,688,59,Male,for_validation,for_validation,for_validation, , ,"UHBI-Parañaque Doctors Hospital, Inc.",14.4858633,121.0284178, , , ,[],0
+PH,689,31,Male,Filipino,for_validation,for_validation, , ,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581, , , ,[],0
+PH,690,57,Male,for_validation,for_validation,for_validation, , ,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581, , , ,[],0
+PH,691,59,Male,for_validation,for_validation,for_validation, , ,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581, , , ,[],0
+PH,692,80,Male,for_validation,for_validation,for_validation, , ,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581, , , ,[],0
+PH,693,61,Female,for_validation,for_validation,for_validation, , ,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581, , , ,[],0
+PH,694,62,Male,Filipino,for_validation,for_validation, , ,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581, , , ,[],0
+PH,695,25,Male,for_validation,for_validation,for_validation, , ,The Medical City,14.58989,121.069315, , , ,[],0
+PH,696,33,Male,for_validation,for_validation,for_validation, , ,The Medical City,14.58989,121.069315, , , ,[],0
+PH,697,32,Male,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991, , , ,[],0
+PH,698,50,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256, , , ,[],0
+PH,699,61,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256, , , ,[],0
+PH,700,68,Female,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256, , , ,[],0
+PH,701,45,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256, , , ,[],0
+PH,702,34,Male,for_validation,for_validation,for_validation, , ,Rosario Maclang Bautista General Hospital,14.686009,121.089385, , , ,[],0
+PH,703,56,Male,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991, , , ,[],0
+PH,704,70,Female,for_validation,for_validation,for_validation, , ,Diliman Doctors Hospital,14.668412,121.076063, , , ,[],0
+PH,705,61,Male,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612, , , ,[],0
+PH,706,73,Male,for_validation,for_validation,for_validation, , ,Diliman Doctors Hospital,14.668412,121.076063, , , ,[],0
+PH,707,40,Male,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991, , , ,[],0
+PH,708,61,Female,for_validation,for_validation,for_validation, , ,Capitol Medical Center,14.634239,121.022776, , , ,[],0
+PH,709,63,Male,for_validation,for_validation,for_validation, , ,Capitol Medical Center,14.634239,121.022776, , , ,[],0
+PH,710,68,Male,for_validation,for_validation,for_validation, , ,Manila Doctors Hospital,14.582028,120.982657, , , ,[],0
+PH,711,34,Male,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991, , , ,[],0
+PH,712,51,Male,for_validation,for_validation,for_validation, , ,Adventist Medical Center - Manila,14.555997,120.99541, , , ,[],0
+PH,713,35,Male,for_validation,for_validation,for_validation, , ,New Era General Hospital,14.664085,121.066728, , , ,[],0
+PH,714,59,Male,for_validation,for_validation,for_validation, , ,Our Lady of Lourdes Hospital,14.594872,121.022557, , , ,[],0
+PH,715,59,Male,for_validation,for_validation,for_validation, , ,Medical Center Taguig,14.530641,121.065475, , , ,[],0
+PH,716,89,Male,for_validation,for_validation,for_validation, , ,Our Lady of Lourdes Hospital,14.594872,121.022557, , , ,[],0
+PH,717,42,Male,for_validation,for_validation,for_validation, , ,Ospital ng Makati,14.546389,121.061827, , , ,[],0
+PH,718,78,Male,for_validation,for_validation,for_validation, , ,Manila Doctors Hospital,14.582028,120.982657, , , ,[],0
+PH,719,65,Male,for_validation,for_validation,for_validation, , ,Manila Doctors Hospital,14.582028,120.982657, , , ,[],0
+PH,720,33,Male,for_validation,for_validation,for_validation, , ,Mandaluyong City Medical Center,14.576313,121.035279, , , ,[],0
+PH,721,39,Female,for_validation,for_validation,for_validation, , ,Delos Santos Medical Center,14.620153,121.017477, , , ,[],0
+PH,722,65,Male,for_validation,for_validation,for_validation, , ,Mandaluyong City Medical Center,14.576313,121.035279, , , ,[],0
+PH,723,39,Male,for_validation,for_validation,for_validation, , ,Commonwealth Hospital and Medical Center,14.731221,121.060665, , , ,[],0
+PH,724,55,Female,for_validation,for_validation,for_validation, , ,Commonwealth Hospital and Medical Center,14.731221,121.060665, , , ,[],0
+PH,725,53,Male,for_validation,for_validation,for_validation, , ,Mandaluyong City Medical Center,14.576313,121.035279, , , ,[],0
+PH,726,64,Female,for_validation,for_validation,for_validation, , ,Amang Rodriguez Memorial Medical Center,14.635884,121.098267, , , ,[],0
+PH,727,31,Female,for_validation,for_validation,for_validation, , ,The Medical City Clark,15.178452,120.571694, , , ,[],0
+PH,728,71,Male,for_validation,for_validation,for_validation, , ,the Medical City Clark,15.178452,120.571694, , , ,[],0
+PH,729,67,Male,for_validation,for_validation,for_validation, , ,Chinese General Hospital and Medical Center,14.625691,120.988565, , , ,[],0
+PH,730,86,Male,for_validation,for_validation,for_validation, , ,Chinese General Hospital and Medical Center,14.625691,120.988565, , , ,[],0
+PH,731,82,Male,for_validation,for_validation,for_validation, , ,Chinese General Hospital and Medical Center,14.625691,120.988565, , , ,[],0
+PH,732,50,Male,for_validation,for_validation,for_validation, , ,Chinese General Hospital and Medical Center,14.625691,120.988565, , , ,[],0
+PH,733,73,Female,for_validation,for_validation,for_validation, , ,Gentri Medical Center And Hospital,14.289082,120.906934, , , ,[],0
+PH,734,52,Male,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991, , , ,[],0
+PH,735,58,Male,for_validation,for_validation,for_validation, , ,Dr. Jose N. Rodriguez Memorial Hospital,14.766822,121.065003, , , ,[],0
+PH,736,35,Male,for_validation,for_validation,for_validation, , ,Valenzuela Medical Center,14.689624,120.978473, , , ,[],0
+PH,737,29,Female,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,738,89,Male,for_validation,for_validation,for_validation, , ,Diliman Doctors Hospital,14.668412,121.076063, , , ,[],0
+PH,739,52,Female,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,740,77,Female,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,741,54,Female,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,742,43,Male,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,743,30,Female,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,744,73,Male,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991, , , ,[],0
+PH,745,86,Male,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,746,66,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Quezon City,14.622677,121.023532, , , ,[],0
+PH,747,41,Male,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,748,30,Male,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,749,45,Female,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Quezon City,14.622677,121.023532, , , ,[],0
+PH,750,33,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Quezon City,14.622677,121.023532, , , ,[],0
+PH,751,51,Female,for_validation,for_validation,for_validation, , ,University of Sto. Tomas Hospital,14.611635,120.990153, , , ,[],0
+PH,752,57,Male,for_validation,for_validation,for_validation, , ,Lung Center of the Philippines,14.647821,121.045763, , , ,[],0
+PH,753,64,Male,for_validation,for_validation,for_validation, , ,Lung Center of the Philippines,14.647821,121.045763, , , ,[],0
+PH,754,47,Male,for_validation,for_validation,for_validation, , ,UP-Philippine General Hospital,14.57768,120.985847, , , ,[],0
+PH,755,52,Female,for_validation,for_validation,for_validation, , ,University of Sto. Tomas Hospital,14.611635,120.990153, , , ,[],0
+PH,756,31,Male,for_validation,for_validation,for_validation, , ,Victor R. Potenciano Medical Center,14.576983,121.050084, , , ,[],0
+PH,757,51,Male,for_validation,for_validation,for_validation, , ,Metropolitan Medical Center,14.609723,120.978397, , , ,[],0
+PH,758,52,Male,for_validation,for_validation,for_validation, , ,RHS 4A Camp Vicente Lim,14.21573,121.121688, , , ,[],0
+PH,759,66,Male,for_validation,for_validation,for_validation, , ,Manila Doctors Hospital,14.582028,120.982657, , , ,[],0
+PH,760,37,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Global City,14.555128,121.048256, , , ,[],0
+PH,761,65,Male,for_validation,for_validation,for_validation, , ,The Medical City - South Luzon,14.248433,121.067344, , , ,[],0
+PH,762,70,Male,for_validation,for_validation,for_validation, , ,Southern Philippines Medical Center,7.09906,125.619406, , , ,[],0
+PH,763,48,Female,for_validation,for_validation,for_validation, , ,Bicol Medical Center,13.623438,123.198899, , , ,[],0
+PH,764,77,Male,for_validation,for_validation,for_validation, , ,Dagupan Doctors Villaflor Memorial Hospital,16.037467,120.346851, , , ,[],0
+PH,765,50,Male,for_validation,for_validation,for_validation, , ,Bicol Regional Training And Teaching Hospital,13.146871,123.724501, , , ,[],0
+PH,766,53,Male,for_validation,for_validation,for_validation, , ,Bicol Regional Training And Teaching Hospital,13.146871,123.724501, , , ,[],0
+PH,767,59,Female,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Quezon City,14.622677,121.023532, , , ,[],0
+PH,768,45,Male,for_validation,for_validation,for_validation, , ,St. Luke's Medical Center - Quezon City,14.622677,121.023532, , , ,[],0
+PH,769,75,Female,for_validation,for_validation,for_validation, , ,Region 1 Medical Center,16.048476,120.341721, , , ,[],0
+PH,770,64,Male,for_validation,for_validation,for_validation, , ,FEU - Dr. Nicanor Reyes Medical Foundation,14.698851,121.067192, , , ,[],0
+PH,771,70,Female,for_validation,for_validation,for_validation, , ,Metropolitan Medical Center,14.609723,120.978397, , , ,[],0
+PH,772,60,Male,for_validation,for_validation,for_validation, , ,Manila Doctors Hospital,14.582028,120.982657, , , ,[],0
+PH,773,67,Female,for_validation,for_validation,for_validation, , ,Manila Doctors Hospital,14.582028,120.982657, , , ,[],0
+PH,774,65,Male,for_validation,for_validation,for_validation, , ,Region II Trauma And Medical Center,16.483175,121.134176, , , ,[],0
+PH,775,38,Female,for_validation,for_validation,for_validation, , ,Philippine Heart Center,14.64407,121.048067, , , ,[],0
+PH,776,25,Female,for_validation,for_validation,for_validation, , ,for_validation,14.615867,120.980991, , , ,[],0
+PH,777,59,Female,for_validation,"Barotac Nuevo, Iloilo",for_validation, , ,Western Visayas Medical Center,10.718684,122.541744, , , ,[],0
+PH,778,37,Female,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,779,60,Male,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994, , , ,[],0
+PH,780,37,Male,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994, , , ,[],0
+PH,781,69,Female,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994, , , ,[],0
+PH,782,48,Female,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994, , , ,[],0
+PH,783,69,Male,for_validation,for_validation,for_validation, , ,Cardinal Santos Medical Center,14.597596,121.045994, , , ,[],0
+PH,784,29,Female,for_validation,for_validation,for_validation, , ,Veterans Memorial Medical Center,14.65616,121.04012, , , ,[],0
+PH,785,65,Female,for_validation,for_validation,for_validation, , ,City Of General Trias Doctors Medical Center,14.290936,120.904015, , , ,[],0
+PH,786,62,Female,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612, , , ,[],0
+PH,787,54,Male,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612, , , ,[],0
+PH,788,75,Female,for_validation,for_validation,for_validation, , ,Asian Hospital and Medical Center,14.413478,121.043612, , , ,[],0
+PH,789,76,Female,for_validation,for_validation,for_validation, , ,Quezon City General Hospital,14.661098,121.018193, , , ,[],0
+PH,790,43,Female,for_validation,for_validation,for_validation, , ,East Avenue Medical Center,14.642167,121.048063, , , ,[],0
+PH,791,55,Male,for_validation,for_validation,for_validation, , ,East Avenue Medical Center,14.642167,121.048063, , , ,[],0
+PH,792,67,Male,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,793,67,Male,for_validation,for_validation,for_validation, , ,Makati Medical Center,14.559177,121.014546, , , ,[],0
+PH,794,69,Male,for_validation,for_validation,for_validation, , ,Quezon City General Hospital,14.661098,121.018193, , , ,[],0
+PH,795,60,Female,for_validation,for_validation,for_validation, , ,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581, , , ,[],0
+PH,796,37,Female,for_validation,for_validation,for_validation, , ,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581, , , ,[],0
+PH,797,25,Female,for_validation,for_validation,for_validation, , ,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581, , , ,[],0
+PH,798,74,Male,for_validation,for_validation,for_validation, , ,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581, , , ,[],0
+PH,799,32,Male,for_validation,for_validation,for_validation, , ,Rizal Medical Center,14.564216,121.065879, , , ,[],0
+PH,800,40,Male,for_validation,for_validation,for_validation, , ,Adventist Medical Center - Bacolod,10.647646,122.949611, , , ,[],0
+PH,801,23,Male,for_validation,for_validation,for_validation, , ,Southern Isabela Medical Center,16.680119,121.546812, , , ,[],0
+PH,802,40,Male,for_validation,for_validation,for_validation, , ,"University of the East Ramon Magsaysay Memorial Medical Center, Inc.",14.60703,121.020581, , , ,[],0
+PH,803,28,Male,for_validation,for_validation,for_validation, , ,Dr. Pablo  O. Torre Memorial Hospital,10.682819,122.957969, , , ,[],0
+,,92,,,,,,,,,,,,,,
+,,13,,,,,,,,,,,,,,

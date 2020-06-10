@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Calculator</title>
+ </head>
+
+ <body>
+     <h1><div style= "text-align: center">  Philippines</div> </h1>
+     <hr>
+ </br>
+     <h2><div style= "text-align: center"> Please enter valid data</div> </h2>
+    </br>
+
+   <div class='container'>
+       <div class='row'>
+           <div class='col-6'>
+               <form method="POST" action="/predict">
+
+                <div class = 'form-group'>
+                    <label for='City'><p class="font-weight-bold">City</p></label>
+                    <!input type="text" name='brand'>
+                    <select name="city" id="covid">
+                        <option value="CALOOCAN CITY">CALOOCAN CITY</option>
+                        <option value="CITY OF LAS PIÑAS">CITY OF LAS PIÑAS</option>
+                        <option value="CITY OF MAKATI">CITY OF MAKATI</option>
+                        <option value="CITY OF MALABON">CITY OF MALABON</option>
+                        <option value="CITY OF MANDALUYONG">CITY OF MANDALUYONG</option>
+                        <option value="CITY OF MANILA">CITY OF MANILA</option>
+                        <option value="CITY OF MARIKINA">CITY OF MARIKINA</option>
+                        <option value="CITY OF MUNTINLUPA">CITY OF MUNTINLUPA</option>
+                        <option value="CITY OF NAVOTAS">CITY OF NAVOTAS</option>
+
+                        <option value="CITY OF PARAÑAQUE">CITY OF PARAÑAQUE</option>
+                        <option value="CITY OF PASIG">CITY OF PASIG</option>
+                        <option value="CITY OF SAN JUAN">CITY OF SAN JUAN</option>
+                        <option value="CITY OF VALENZUELA">CITY OF VALENZUELA</option>
+                        <option value="PASAY CITY">PASAY CITY</option>
+                        <option value="PATEROS">PATEROS</option>
+                        <option value="QUEZON CITY">QUEZON CITY</option>
+                        <option value="TAGUIG CITY">TAGUIG CITY</option>
+                                                             
+                      </select>
+
+                </br>
+                    <small id='CityHelp' class='form-text text-muted'>Select Ciy </small>
+                </div>
+                
+                <div class = 'form-group'>
+                    <label for='Covtemp'><p class="font-weight-bold">Temperature</p></label>
+                    <input type="text" name='temperature'>
+                </br>
+                    <small id='tempHelp' class='form-text text-muted'>Enter Temperature</small>
+                </div>
+
+                <div class = 'form-group'>
+                    <label for='Covpm'><p class="font-weight-bold">PM10</p></label>
+                    <input type="text" name='pm10'>
+                   
+                    </br>
+                    <small id='PmHelp' class='form-text text-muted'>Enter PM10</small>
+                </div>
+
+                <div class = 'form-group'>
+                    <label for='Covhum'><p class="font-weight-bold">Humidity</p></label>
+                    <input type="text" name='humidity'>
+                </br>
+                    <small id='HumHelp' class='form-text text-muted'>Enter Humidity</small>
+                </div>
+                <div class = 'form-group'>
+                    <label for='Covno2'><p class="font-weight-bold">NO2</p></label>
+                    <input type="text" name='no2'>
+                </br>
+                    <small id='No2Help' class='form-text text-muted'>Enter NO2 Value</small>
+                </div>
+                
+                
+
+                <input class="btn btn-primary" type="submit" value="Submit">
+                
+            
+            
+            </form>
+           </div>
+       </div>
+       </div>
+
+    </body> 
+
+</html>

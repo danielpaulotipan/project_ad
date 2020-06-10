@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Home Page {% endblock %}
+{% block content %}
+	
+	
+	<div class="jumbotron">
+		<h1 class="display-4">Predicted Number of COVID-19 Cases in {{city}}:</h1>
+			<p class='lead'><h1>{{prediction}}</h1></p>
+  <hr class="my-4">
+  <p>According to our prediction, this value would be the number of cases in a day given the environmental factors.</p>
+  <a class="btn btn-primary btn-lg" href="/" role="button">Compute again?</a>
+</div>
+
+
+
+{% endblock %}
